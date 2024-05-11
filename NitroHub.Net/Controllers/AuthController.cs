@@ -25,6 +25,8 @@ public class AuthController : Controller
             PasswordHash = viewModel.Password 
         };
             
+        
+        
         var claims = new List<Claim> { new Claim(ClaimTypes.Name, user.Email) };
         // создаем объект ClaimsIdentity
         ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, "Cookies");
