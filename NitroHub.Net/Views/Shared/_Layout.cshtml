@@ -113,8 +113,6 @@
 </head>
 <body>
 
-<p>@User.Identity.Name</p>
-
 <style>
     body {
         background-color: #190a25;
@@ -125,6 +123,8 @@
         background-image: url(static/img/header.png);
     }
 </style>
+
+    @* <p>@User.Identity.Name</p>  *@
 
 <div class="navbar" id="scrolltop">
     <div class="container">
@@ -143,9 +143,15 @@
 
 
                     <li class="nav-li">
-                        <a href="index.html#" rel="nofollow" data-modal="auth" class="nav-link"><i class="pic pic-login"></i> <span class="text-preloader">Личный кабинет</span></a>
-                    </li>
-
+                        @if(User.Identity.Name != null)
+                        {
+                                <a href="index.html#" rel="nofollow" data-modal="auth" class="nav-link"><i class="pic pic-login"></i> <span class="text-preloader">@User.Identity.Name</span></a>
+                        }
+                        else
+                        {
+                            <a href="index.html#" rel="nofollow" data-modal="auth" class="nav-link"><i class="pic pic-login"></i> <span class="text-preloader">Личный кабинет</span></a>
+                        }
+                     </li>
 
                 </ul>
             </div>
@@ -159,7 +165,7 @@
             <div class="modal-header">Авторизация</div>
             <div class="modal-body" style="margin-bottom: 0px"><br>
 
-                <form method="post" asp-controller="Auth" asp-action="Register">
+                    <form method="post" id="registrationForm" asp-controller="Auth" asp-action="Auth">
                     <div class="center">
                         <div class="email-input-container">
                             
@@ -169,13 +175,37 @@
                                 <input name="email" type="password" style="border-radius: 8px; margin-left: 5px;" asp-for="Email" placeholder="Пароль">
                             </div>
 
-                            <button onclick="cooldown()" class="btn auth-email-checkmark" type="submit">
+                                <button onclick="cooldown()" class="btn auth-email-checkmark" type="submit" value="login" name="type">
                                 <span style="font-weight: bold; font-size: 14px">ВОЙТИ</span>
                             </button>
+
+
+
+                               @*  <button onclick="cooldown()" class="btn auth-email-checkmark" type="submit" value="reg" name="type">
+                                    <span style="font-weight: bold; font-size: 14px">ВОЙТИ</span>
+                                </button> *@
 
                         </div>
 
                         <span class="text-bold" style="color: gray; text-align: center;">ИЛИ АВТОРИЗОВАТЬСЯ ЧЕРЕЗ:</span><br><br>
+
+                         <span class="text-bold" style="color: gray; text-align: center; cursor: pointer;" onclick="submitForm()" >Регистраци</span><br><br>
+
+                            <script>
+                                function submitForm() {
+                                    // Создаем элемент input для передачи дополнительных данных
+                                    var actionInput = document.createElement('input');
+                                    actionInput.type = 'hidden';
+                                    actionInput.name = 'type';
+                                    actionInput.value = 'reg'; // Задаем значение 'Login' для параметра action
+
+                                    // Добавляем созданный элемент в форму
+                                    document.getElementById('registrationForm').appendChild(actionInput);
+
+                                    // Отправляем форму
+                                    document.getElementById('registrationForm').submit();
+                                }
+                            </script>
                     </div>
                 </form>
 

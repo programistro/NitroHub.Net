@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\1\\NitroHub.Net\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4154B9-9A50-4A85-897E-F95402FBBE99}|NitroHub.Net\\NitroHub.Net.csproj|c:\\1\\nitrohub.net\\nitrohub.net\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E4154B9-9A50-4A85-897E-F95402FBBE99}|NitroHub.Net\\NitroHub.Net.csproj|solutionrelative:nitrohub.net\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4154B9-9A50-4A85-897E-F95402FBBE99}|NitroHub.Net\\NitroHub.Net.csproj|c:\\1\\nitrohub.net\\nitrohub.net\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4154B9-9A50-4A85-897E-F95402FBBE99}|NitroHub.Net\\NitroHub.Net.csproj|solutionrelative:nitrohub.net\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4154B9-9A50-4A85-897E-F95402FBBE99}|NitroHub.Net\\NitroHub.Net.csproj|c:\\1\\nitrohub.net\\nitrohub.net\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4154B9-9A50-4A85-897E-F95402FBBE99}|NitroHub.Net\\NitroHub.Net.csproj|solutionrelative:nitrohub.net\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4154B9-9A50-4A85-897E-F95402FBBE99}|NitroHub.Net\\NitroHub.Net.csproj|c:\\1\\nitrohub.net\\nitrohub.net\\service\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4154B9-9A50-4A85-897E-F95402FBBE99}|NitroHub.Net\\NitroHub.Net.csproj|solutionrelative:nitrohub.net\\service\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4154B9-9A50-4A85-897E-F95402FBBE99}|NitroHub.Net\\NitroHub.Net.csproj|c:\\1\\nitrohub.net\\nitrohub.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4154B9-9A50-4A85-897E-F95402FBBE99}|NitroHub.Net\\NitroHub.Net.csproj|solutionrelative:nitrohub.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\1\\NitroHub.Net\\NitroHub.Net\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "NitroHub.Net\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\1\\NitroHub.Net\\NitroHub.Net\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "NitroHub.Net\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAMwH4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T13:38:08.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\1\\NitroHub.Net\\NitroHub.Net\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "NitroHub.Net\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\1\\NitroHub.Net\\NitroHub.Net\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "NitroHub.Net\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T13:36:54.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\1\\NitroHub.Net\\NitroHub.Net\\Service\\AccountService.cs",
+              "RelativeDocumentMoniker": "NitroHub.Net\\Service\\AccountService.cs",
+              "ToolTip": "C:\\1\\NitroHub.Net\\NitroHub.Net\\Service\\AccountService.cs",
+              "RelativeToolTip": "NitroHub.Net\\Service\\AccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T13:35:54.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\1\\NitroHub.Net\\NitroHub.Net\\Program.cs",
+              "RelativeDocumentMoniker": "NitroHub.Net\\Program.cs",
+              "ToolTip": "C:\\1\\NitroHub.Net\\NitroHub.Net\\Program.cs",
+              "RelativeToolTip": "NitroHub.Net\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T13:30:11.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "C:\\1\\NitroHub.Net\\NitroHub.Net\\Data\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "NitroHub.Net\\Data\\UserDbContext.cs",
+              "ToolTip": "C:\\1\\NitroHub.Net\\NitroHub.Net\\Data\\UserDbContext.cs",
+              "RelativeToolTip": "NitroHub.Net\\Data\\UserDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T13:28:35.578Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
