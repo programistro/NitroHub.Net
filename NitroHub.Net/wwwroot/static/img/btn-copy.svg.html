@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>unitstore.cc / Произошла ошибка на стороне сервера</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1;">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="../css/pipui.min.css.css">
+    <link rel="stylesheet" href="../css/pipui.theme.css.css">
+    <link href="../css/Acrom.css" rel="stylesheet">
+    <link rel="stylesheet" href="../Main/css/style.css.css">
+
+    <style>
+        body {
+            background-color: #080E1F;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .error-message {
+            text-align: center;
+            margin-right: 20px;
+        }
+        
+        .error-image {
+            width: 300px;
+            height: 300px;
+        }
+
+        .error-text {
+            width: 500px;
+        }
+
+        /* Mobile Styles */
+        @media only screen and (max-width: 600px) {
+            .error-message {
+                margin: 20px;
+            }
+            
+            .error-image {
+                display: none
+            }
+
+            .error-text {
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 31px;
+            }
+
+            form {
+                margin-right: 40px;
+                margin-left: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="error-message">
+        <h1>Произошла ошибка!</h1>
+        <p class="error-text">К сожалению, мы не смогли найти запрошенную вами страницу</p>
+        <br>
+        <form method="get" action="../../index.html">
+            <button class="btn">Вернуться на главную</button>
+        </form>
+    </div>
+    <img class="error-image" src="logo.png">
+</body>
+</html>

@@ -1,0 +1,6 @@
+﻿2services:
+  nitrohub.net:
+    image: nitrohub.net
+    build:
+      context: .
+      dockerfile: NitroHub.Net/Dockerfile

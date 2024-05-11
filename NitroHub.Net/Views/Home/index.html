@@ -1,0 +1,2361 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Nitro Hub.com / Магазин с Discord Nitro</title>
+    <meta charset="UTF-8">
+    <script async src="https://telegram.org/js/telegram-widget.js" data-telegram-login="veyrenshop" data-size="medium" data-auth-url="https://unitstore.cc/go/telegram" data-request-access="write"></script>
+    <link rel="shortcut icon" type="image/png" href="static/img/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1;">
+
+    
+
+        <meta name="description" content="Nitro Hub.com — это один из лучших магазинов для покупки Discord Nitro! Здесь вы сможете приобрести нитро / бусты / украшения для вашего профиля по самым вкусным ценам">
+        <meta property="og:description" content="Nitro Hub.com — это один из лучших магазинов для покупки Discord Nitro! Здесь вы сможете приобрести нитро / бусты / украшения для вашего профиля по самым вкусным ценам">
+        <meta name="og:title" content="Nitro Hub.com - дискорд шоп">
+        <meta name="og:description" content="Nitro Hub.com — это один из лучших магазинов для покупки Discord Nitro! Здесь вы сможете приобрести нитро / бусты / украшения для вашего профиля по самым вкусным ценам">
+        <meta name="og:image" content="/static/img/logo.png"/>
+
+        <meta name="keywords" content="nitro, нитро, дискорд, юнитсторе, юнитстор">
+
+    
+
+    <meta name="theme-color" content="#bd92f5"/>
+    
+    <script>
+      app = {
+        token: 'Z9a0F7KieHPyLaG1EKtrjVyEiHSIFPxBrH49rFr/asBWoV9RqqPVAhDdb2gDzUd1hjcOt+CH5zaPxu7eZEDYBGZJ7mFYT+onlzFPRYPmDOg=',
+        site_url: '/',
+        unixtime: 1668271498,
+        diff: (Date.now() / 1000).toFixed()-1668271498
+      };
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="static/css/pipui.min.css.css">
+    <link rel="stylesheet" href="static/css/pipui-responsive.min.css.css">
+    <link rel="stylesheet" href="static/css/pipui.theme.css.css">
+    <link rel="stylesheet" href="static/css/pipui.theme-responsive.css.css">
+    <link href="static/css/Acrom.css" rel="stylesheet">
+    <script src="static/js/pipui.min.js"></script>
+    <script src="static/js/wow.min.js"></script>
+    <script src="static/Main/js/script.js"></script>
+    <link rel="stylesheet" href="static/Main/css/style.css.css">
+    <link rel="stylesheet" href="static/Main/css/style-responsive.css.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fontfaceobserver/2.1.0/fontfaceobserver.js"></script>
+</head>
+<body>
+
+<div class="navbar" id="scrolltop">
+    <div class="container">
+        <div class="navbar-wrapper">
+            <div class="nav-left">
+                <span href="#" rel="nofollow" class="nav-mobile"><i class="pic pic-mobile"></i></span>
+                <img src="static/img/logo.png" alt="" width="40" style="border-radius: 10px; margin-top: 40px; margin-left: 10px; position: absolute; background-color: #0d152d;"><a class="nav-brand logo" href="index.html"><span class="nav-brand-text">Nitro Hub</span></a>
+            </div>
+
+            <div class="nav-center">
+                <ul class="navbar-menu">
+                    <li class="nav-li">
+                        <a href="index.html#" class="nav-link" rel="nofollow" data-modal="social-links"><i class="pic pic-chathelp"></i> <span class="text-preloader">О проекте</span></a>
+                    </li>
+
+                    
+
+                        <li class="nav-li">
+                            <a href="index.html#" rel="nofollow" data-modal="auth" class="nav-link"><i class="pic pic-login"></i> <span class="text-preloader">Личный кабинет</span></a>
+                        </li>
+
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="modal" data-id="auth" id="auth">
+        <div class="wrapper">
+            <div class="modal-content">
+                <a href="index.html#" rel="nofollow" data-modal-close>&times;</a>
+                <div class="modal-header">Авторизация</div>
+                <div class="modal-body" style="margin-bottom: 0px"><br>
+
+                <form method="post" action="https://unitstore.cc/v">
+                    <div class="center"> 
+                        <div class="email-input-container">
+                            <input name="email" type="email" style="border-radius: 8px;" placeholder="Электронная почта">
+
+                            <button onclick="cooldown()" class="btn auth-email-checkmark">
+                                <span style="font-weight: bold; font-size: 14px">ВОЙТИ</span>
+                            </button>
+
+                        </div>
+
+                        <span class="text-bold" style="color: gray; text-align: center;">ИЛИ АВТОРИЗОВАТЬСЯ ЧЕРЕЗ:</span><br><br>
+                    </div>
+                </form>
+
+                <div class="auth-buttons">
+                    <button onclick="window.location='/login/google';" class="btn auth-button">
+                        <img loading="lazy" src="static/img/google.png" alt="Google">
+                    </button>
+
+                    <button onclick="cooldown()" class="btn auth-button telegramLogin">
+                        <img loading="lazy" src="static/img/tg.png" alt="Telegram">
+                    </button>
+
+                    <button type="button" onclick="window.location='/login/vk';" class="btn auth-button">
+                        <img loading="lazy" src="static/img/vk.png" alt="ВКонтакте">
+                    </button>
+
+                    <button type="button" onclick="window.location='/login/discord';" class="btn auth-button">
+                        <img loading="lazy" src="static/img/discord.png" alt="Дискорд">
+                    </button>
+                </div>
+
+                <script>
+                $('.telegramLogin').on('click', e => {
+                    e.preventDefault()
+                    const url = new URL('https://oauth.telegram.org/auth') 
+                    for(const [ key, value ] of Object.entries({
+                        bot_id: "5584149290",
+                        origin: "https://unitstore.cc/go/telegram"
+                    })) url.searchParams.set(key, value)
+                    
+                    
+                    const openParams = {
+                        width: 550,
+                        height: 470,
+                        status: 0,
+                        location: 0,
+                        menubar: 0,
+                        toolbar: 0
+                    }
+                    
+                    openParams.left = Math.max(0, (screen.width - openParams.width) / 2) + screen.availLeft
+                    openParams.top = Math.max(0, (screen.height - openParams.height) / 2) + screen.availTop
+                    
+                    const win = window.open(
+                        url.href,
+                        'ee_oauth_telegram',
+                        Object.entries(openParams).map(([k, v]) => `${k}=${v}`).join(',')
+                    )
+                })
+                window.addEventListener('message', e => {
+                
+                    if(!e.origin || e.origin !== 'https://oauth.telegram.org') return
+                    if(typeof e.data !== 'string') return
+                    const data = JSON.parse(e.data)
+                    
+                    console.log(data);
+                    
+                    if(data.event === 'auth_result') {
+                        const $form = $('<form action="https://unitstore.cc/go/telegram" method="POST"/>')
+                        $('<input name="code">')
+                            .attr('value', JSON.stringify(data.result))
+                            .appendTo($form)
+                        $form.appendTo('body').submit()
+                    }
+                })
+            </script>
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script>
+        $('button.but').on('click', function() {
+            $('#balance_input').val( $(this).val() );
+        });
+    </script>
+
+    
+
+    
+
+    <div class="modal" data-id="tutorial-1m-nitro-free" id="tutorial-1m-nitro-free">
+        <div class="wrapper">
+            <div class="modal-content">
+                <a href="index.html#" rel="nofollow" data-modal-close>&times;</a>
+
+                <div class="modal-header">1 МЕСЯЦ БЕСПЛАТНО</div>
+                    <div class="modal-body">
+                        Чтобы узнать, есть ли у вас бесплатное нитро на аккаунте, вам нужно зайти в Дискорд с ВПН<br><br>
+
+                        1. Устанавливайте любой ВПН (Лучшие и проверенные нами: Adguard VPN, Pure VPN, 4ebur.net)<br><br>
+
+                        2. Выбираете любую локацию кроме РФ<br><br>
+
+                        3. Перезапускаете Дискорд<br><br>
+
+                        4. Заходите в настройки пользователя<br><br>
+
+                        5. Заходите во вкладку <span style="font-weight: bold; color: #cc34eb">Nitro</span><br><br>
+                        
+                        6. У вас должна быть следующая картина:<br><br>
+
+                        <div class="preloader" style="background-color: rgba(0, 0, 0, 0.3); border-radius: 10px; width: 500px; height: 438px; margin-top: 10px">
+                           <a href="static/items/discord-1m-free.png" target="_blank"><img width="1056" style="border-radius: 10px" alt="" loading="lazy" src="static/items/discord-1m-free.png"></a>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+
+    <form method="get" class="modal" data-id="social-links" id="social-links">
+        <div class="wrapper">
+            <div class="modal-content">
+                <a href="index.html#" rel="nofollow" data-modal-close>&times;</a>
+                <div class="modal-header"><i class="pic pic-chathelp emoji"></i> О проекте</div>
+
+                <div class="modal-body">
+                    Создание проекта: 17 марта 2023 года
+                    <br><br>
+
+                    <a target="_blank" href="https://discord.com/invite/SgrAFN5qX8">
+                        <button onclick="cooldown()" type="button" class="btn method">
+                            <img loading="lazy" width="40" src="static/img/discord.png"><span class="method-text">Дискорд Cервер</span>
+                        </button>
+                    </a>
+
+                    <a href="tg://resolve?domain=unitstorenews">
+                        <button onclick="cooldown()" type="button" class="btn method">
+                            <img loading="lazy" width="40" src="static/img/tg.png"><span class="method-text">Телеграм Канал</span>
+                        </button>
+                    </a>
+
+                    <a href="tg://resolve?domain=unitstoresup">
+                        <button onclick="cooldown()" type="button" class="btn method">
+                            <img loading="lazy" width="40" src="static/img/chathelp.png"><span class="method-text">Тех. Поддержка</span>
+                        </button>
+                    </a>
+
+                    <a target="_blank" href="reviews.html">
+                        <button onclick="cooldown()" type="button" class="btn method">
+                            <img loading="lazy" width="40" style="border-radius: 8px" src="static/img/payments/lolzteam.png"><span class="method-text">Отзывы на Лолзтим</span>
+                        </button>
+                    </a>
+
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </form>
+
+    
+
+<div class="main">
+    <div class="header">
+    <div class="container">
+        <div style="background-image: url(static/img/top-blockBLACK.png); background-color: #1d0d2d;" class="wrapper">
+            <div class="block-left">
+            </div> 
+        </div>
+    </div>
+</div>
+
+
+    <div class="donate">
+    <div class="container">
+        <div class="tabs items-container">
+            <ul class="tab-links" style="display: none;">
+                
+                    <li>
+                        <button data-id="#category-tab-Дискорд" class="tab-link">Дискорд</button>
+                    </li>
+                
+            </ul>
+
+            <div class="tab-list">
+            
+                    
+                        <div class="tab-id active" id="category-tab-Дискорд">
+                    
+                    <div class="items">
+                        
+
+                        <div class="item-list">
+
+                            
+                                
+                                    <div data-modal="donate" class="item-id animate" data-id="testNitroFull">
+                                        <div class="title">Активация пробного периода</div>
+                                        <div class="image" style="background-color: #1d0d2d; background-image:url('static/items/nitro_full.png'); border-radius: 15px"></div>
+
+                                        <div class="price">
+                                            
+                                                <div class="current-price"><span class="text-preloader"><s class="after-preloader" style="color: black"><span style="color: #ed4545">69</span></s> 59 РУБ</span></div>
+                                            
+                                        </div>
+
+                                        <div class="data">
+                                            <div class="data-amounted">1</div>
+                                            <div class="data-min">1</div>
+                                            <div class="data-title">Активация пробного периода</div>
+                                            <div class="data-text">Активация пробного периода</div>
+                                            <div class="data-description">
+
+
+
+
+
+<div class="text-container">
+    
+        <script type="text/javascript">
+        $(".show-more.buy > a").on("click", function() {
+            var $this = $(this); 
+            var $content = $this.parent().prev("div.contentText");
+            var linkText = $this.text().toUpperCase();    
+
+            if(linkText === "ЧИТАТЬ ПОЛНОСТЬЮ"){
+                linkText = "Скрыть описание";
+                $content.switchClass("hideContent", "showContent", 500);
+            } else {
+                linkText = "Читать полностью";
+                $content.switchClass("showContent", "hideContent", 500);
+            };
+
+            $this.text(linkText);
+        });
+        </script>
+
+        <div class="contentText hideContent">
+            
+            <attention>🥶 <span class="text-bold">Discord Nitro Full</span> на ваш аккаунт<br><br>⚠️ Не покупайте, если ваш аккаунт не подходит под критерии:<br>⛔ На аккаунте должна быть табличка <span class="text-bold"><a target='_blank' data-modal='tutorial-1m-nitro-free' data-id='tutorial-1m-nitro-free'  style='cursor: pointer; color: #bd92f5'>1 МЕСЯЦ БЕСПЛАТНО</a></span>, либо на аккаунте не должно быть нитро за последние 12 месяцев<br><br>— Если у вас имеется промокод на 1 или 3 месяца нитро, то мы также сможем его активировать<br><br>— Узнать подробнее о преимуществах подписки <span class="text-bold">Discord Nitro Full</span> можно здесь — <a style="color: #bd92f5;font-weight: bold;" target="_blank" href="https://support.discord.com/hc/ru/articles/115000435108-%D0%A7%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-Nitro-%D0%B8-Nitro-Basic-">Что такое Nitro и Nitro Basic?</a><br><br>— Работает абсолютно на всех аккаунтах<br>— Среднее время активации — от 5-ти минут до 3-ёх часов<br>— Вернем деньги в случае неудачи<br>— Не слетает / Гарантия на весь срок подписки</attention>
+        </div>
+
+        <div class="show-more buy">
+            <a>Читать полностью</a>
+        </div>
+    
+</div>
+
+
+
+    <div class="preloader item-img" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 10px; width: 500px; margin-top: 10px; max-width: 100%">
+        <img width="500" style="border-radius: 10px" alt="" loading="lazy" src="static/items/nitro_banner.png">
+    </div>
+
+
+
+                    <div class="modal-footer" id="donate-modal-footer">
+                        <br>
+
+                        
+                            <div class="input-block" id="input-amount">
+                                <div class="input-prepend input-append">
+                                    <input type="text" maxlength="5" min="1" onchange="calculate('donate-amount_testNitroFull', '59', 'amount_price_testNitroFull')" id="donate-amount_testNitroFull" name="num" placeholder="КОЛ-ВО (ПО УМОЛЧАНИЮ - 1)">
+                                    <div class="prepend"><a href="index.html#" rel="nofollow" class="minus" onclick="minus('donate-amount_testNitroFull', '59', 'amount_price_testNitroFull')">-</a></div>
+                                    <div class="append"><a href="index.html#" rel="nofollow" class="plus" onclick="plus('donate-amount_testNitroFull', '59', 'amount_price_testNitroFull')">+</a></div>
+                                </div>
+                            </div>
+                            <br>
+                        
+
+                        <div class="block-middle" style="grid-template-columns: 1fr 1fr; display: grid">
+
+                            <div class="block-left">
+                                
+
+                                    
+                                        <button name="button" data-modal="auth" type="button" class="btn animate purchase">🥶 Приобрести</button>
+                                    
+
+                                
+                            </div>
+
+                            <div class="block-right">
+
+                                <div style="text-align: center; padding-top: 7.5px; font-weight: bold;">
+                                    <span id="amount_price_testNitroFull">59 РУБ</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div></div>
+
+                            </div>
+                                    <div class="data-price"></div>
+                                </div>
+
+                                
+                                
+                                
+                                    <div data-modal="donate" class="item-id animate" data-id="NitroFull3m">
+                                        <div class="title">Nitro Full НА 3 МЕСЯЦА</div>
+                                        <div class="image" style="background-color: #1d0d2d; background-image:url('static/items/nitro_full.png'); border-radius: 15px"></div>
+
+                                        <div class="price">
+                                            
+                                                <div class="current-price"><span class="text-preloader"><s class="after-preloader" style="color: black"><span style="color: #ed4545">899</span></s> 300 РУБ</span></div>
+                                            
+                                        </div>
+
+                                        <div class="data">
+                                            <div class="data-amounted">1</div>
+                                            <div class="data-min">1</div>
+                                            <div class="data-title">Nitro Full НА 3 МЕСЯЦА</div>
+                                            <div class="data-text">Nitro Full НА 3 МЕСЯЦА</div>
+                                            <div class="data-description">
+
+
+
+
+
+<div class="text-container">
+    
+        <script type="text/javascript">
+        $(".show-more.buy > a").on("click", function() {
+            var $this = $(this); 
+            var $content = $this.parent().prev("div.contentText");
+            var linkText = $this.text().toUpperCase();    
+
+            if(linkText === "ЧИТАТЬ ПОЛНОСТЬЮ"){
+                linkText = "Скрыть описание";
+                $content.switchClass("hideContent", "showContent", 500);
+            } else {
+                linkText = "Читать полностью";
+                $content.switchClass("showContent", "hideContent", 500);
+            };
+
+            $this.text(linkText);
+        });
+        </script>
+
+        <div class="contentText hideContent">
+            
+            <attention>🥶 <span class="text-bold">Discord Nitro Full</span> на ваш аккаунт<br>              <br>⚠️ Не покупайте, если ваш аккаунт не подходит под критерии:  <br>⛔ Дата регистрации аккаунта должна быть больше, чем 30 дней<br>⛔ На аккаунте не должно было быть нитро за последние 12 месяцев<br><br>— Узнать подробнее о преимуществах подписки <span class="text-bold">Discord Nitro Full</span> можно здесь — <a style="color: #bd92f5;font-weight: bold;" target="_blank" href="https://support.discord.com/hc/ru/articles/115000435108-%D0%A7%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-Nitro-%D0%B8-Nitro-Basic-">Что такое Nitro и Nitro Basic?</a><br><br>⚠️ Пользователи, у которых уже была подписка за последние 12 месяцев, не смогут купить подписку на 3 месяца. Им доступны только подписки на 1 месяц или 1 год<br><br>— Работает абсолютно на всех аккаунтах<br>— Среднее время активации — от 5-ти минут до 3-ёх часов<br>— Вернем деньги в случае неудачи<br>— Не слетает / Гарантия на весь срок подписки</attention>
+        </div>
+
+        <div class="show-more buy">
+            <a>Читать полностью</a>
+        </div>
+    
+</div>
+
+
+
+    <div class="preloader item-img" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 10px; width: 500px; margin-top: 10px; max-width: 100%">
+        <img width="500" style="border-radius: 10px" alt="" loading="lazy" src="static/items/nitro_banner.png">
+    </div>
+
+
+
+                    <div class="modal-footer" id="donate-modal-footer">
+                        <br>
+
+                        
+                            <div class="input-block" id="input-amount">
+                                <div class="input-prepend input-append">
+                                    <input type="text" maxlength="5" min="1" onchange="calculate('donate-amount_NitroFull3m', '300', 'amount_price_NitroFull3m')" id="donate-amount_NitroFull3m" name="num" placeholder="КОЛ-ВО (ПО УМОЛЧАНИЮ - 1)">
+                                    <div class="prepend"><a href="index.html#" rel="nofollow" class="minus" onclick="minus('donate-amount_NitroFull3m', '300', 'amount_price_NitroFull3m')">-</a></div>
+                                    <div class="append"><a href="index.html#" rel="nofollow" class="plus" onclick="plus('donate-amount_NitroFull3m', '300', 'amount_price_NitroFull3m')">+</a></div>
+                                </div>
+                            </div>
+                            <br>
+                        
+
+                        <div class="block-middle" style="grid-template-columns: 1fr 1fr; display: grid">
+
+                            <div class="block-left">
+                                
+
+                                    
+                                        <button name="button" data-modal="auth" type="button" class="btn animate purchase">🥶 Приобрести</button>
+                                    
+
+                                
+                            </div>
+
+                            <div class="block-right">
+
+                                <div style="text-align: center; padding-top: 7.5px; font-weight: bold;">
+                                    <span id="amount_price_NitroFull3m">300 РУБ</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div></div>
+
+                            </div>
+                                    <div class="data-price"></div>
+                                </div>
+
+                                
+                                
+                                
+                                    <div data-modal="donate" class="item-id animate" data-id="NitroFull1m">
+                                        <div class="title">Nitro Full НА МЕСЯЦ</div>
+                                        <div class="image" style="background-color: #1d0d2d; background-image:url('static/items/nitro_full.png'); border-radius: 15px"></div>
+
+                                        <div class="price">
+                                            
+                                                <div class="current-price"><span class="text-preloader"><s class="after-preloader" style="color: black"><span style="color: #ed4545">1000</span></s> 400 РУБ</span></div>
+                                            
+                                        </div>
+
+                                        <div class="data">
+                                            <div class="data-amounted">1</div>
+                                            <div class="data-min">1</div>
+                                            <div class="data-title">Nitro Full НА МЕСЯЦ</div>
+                                            <div class="data-text">Nitro Full НА МЕСЯЦ</div>
+                                            <div class="data-description">
+
+
+
+
+
+<div class="text-container">
+    
+        <script type="text/javascript">
+        $(".show-more.buy > a").on("click", function() {
+            var $this = $(this); 
+            var $content = $this.parent().prev("div.contentText");
+            var linkText = $this.text().toUpperCase();    
+
+            if(linkText === "ЧИТАТЬ ПОЛНОСТЬЮ"){
+                linkText = "Скрыть описание";
+                $content.switchClass("hideContent", "showContent", 500);
+            } else {
+                linkText = "Читать полностью";
+                $content.switchClass("showContent", "hideContent", 500);
+            };
+
+            $this.text(linkText);
+        });
+        </script>
+
+        <div class="contentText hideContent">
+            
+            <attention>🥶 <span class="text-bold">Discord Nitro Full</span> на ваш аккаунт<br><br>— То самое Дискорд Нитро, которое можно активировать на любом аккаунте, в отличие от трехмесячной подписки Nitro и пробного периода.<br><br>— Узнать подробнее о преимуществах подписки <span class="text-bold">Discord Nitro Full</span> можно здесь — <a style="color: #bd92f5;font-weight: bold;" target="_blank" href="https://support.discord.com/hc/ru/articles/115000435108-%D0%A7%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-Nitro-%D0%B8-Nitro-Basic-">Что такое Nitro и Nitro Basic?</a><br><br>— Работает абсолютно на всех аккаунтах<br>— Среднее время активации — от 5-ти минут до 3-ёх часов<br>— Вернем деньги в случае неудачи<br>— Не слетает / Гарантия на весь срок подписки</attention>
+        </div>
+
+        <div class="show-more buy">
+            <a>Читать полностью</a>
+        </div>
+    
+</div>
+
+
+
+    <div class="preloader item-img" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 10px; width: 500px; margin-top: 10px; max-width: 100%">
+        <img width="500" style="border-radius: 10px" alt="" loading="lazy" src="static/items/nitro_banner.png">
+    </div>
+
+
+
+                    <div class="modal-footer" id="donate-modal-footer">
+                        <br>
+
+                        
+                            <div class="input-block" id="input-amount">
+                                <div class="input-prepend input-append">
+                                    <input type="text" maxlength="5" min="1" onchange="calculate('donate-amount_NitroFull1m', '400', 'amount_price_NitroFull1m')" id="donate-amount_NitroFull1m" name="num" placeholder="КОЛ-ВО (ПО УМОЛЧАНИЮ - 1)">
+                                    <div class="prepend"><a href="index.html#" rel="nofollow" class="minus" onclick="minus('donate-amount_NitroFull1m', '400', 'amount_price_NitroFull1m')">-</a></div>
+                                    <div class="append"><a href="index.html#" rel="nofollow" class="plus" onclick="plus('donate-amount_NitroFull1m', '400', 'amount_price_NitroFull1m')">+</a></div>
+                                </div>
+                            </div>
+                            <br>
+                        
+
+                        <div class="block-middle" style="grid-template-columns: 1fr 1fr; display: grid">
+
+                            <div class="block-left">
+                                
+
+                                    
+                                        <button name="button" data-modal="auth" type="button" class="btn animate purchase">🥶 Приобрести</button>
+                                    
+
+                                
+                            </div>
+
+                            <div class="block-right">
+
+                                <div style="text-align: center; padding-top: 7.5px; font-weight: bold;">
+                                    <span id="amount_price_NitroFull1m">400 РУБ</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div></div>
+
+                            </div>
+                                    <div class="data-price"></div>
+                                </div>
+
+                                
+                                
+                                
+                                    <div data-modal="donate" class="item-id animate" data-id="NitroFull12m">
+                                        <div class="title">Nitro Full НА ГОД</div>
+                                        <div class="image" style="background-color: #1d0d2d; background-image:url('static/items/nitro_full.png'); border-radius: 15px"></div>
+
+                                        <div class="price">
+                                            
+                                                <div class="current-price"><span class="text-preloader"><s class="after-preloader" style="color: black"><span style="color: #ed4545">2749</span></s> 2,499 РУБ</span></div>
+                                            
+                                        </div>
+
+                                        <div class="data">
+                                            <div class="data-amounted">1</div>
+                                            <div class="data-min">1</div>
+                                            <div class="data-title">Nitro Full НА ГОД</div>
+                                            <div class="data-text">Nitro Full НА ГОД</div>
+                                            <div class="data-description">
+
+
+
+
+
+<div class="text-container">
+    
+        <script type="text/javascript">
+        $(".show-more.buy > a").on("click", function() {
+            var $this = $(this); 
+            var $content = $this.parent().prev("div.contentText");
+            var linkText = $this.text().toUpperCase();    
+
+            if(linkText === "ЧИТАТЬ ПОЛНОСТЬЮ"){
+                linkText = "Скрыть описание";
+                $content.switchClass("hideContent", "showContent", 500);
+            } else {
+                linkText = "Читать полностью";
+                $content.switchClass("showContent", "hideContent", 500);
+            };
+
+            $this.text(linkText);
+        });
+        </script>
+
+        <div class="contentText hideContent">
+            
+            <attention>🥶 <span class="text-bold">Discord Nitro Full</span> на ваш аккаунт<br><br>— Узнать подробнее о преимуществах подписки <span class="text-bold">Discord Nitro Full</span> можно здесь — <a style="color: #bd92f5;font-weight: bold;" target="_blank" href="https://support.discord.com/hc/ru/articles/115000435108-%D0%A7%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-Nitro-%D0%B8-Nitro-Basic-">Что такое Nitro и Nitro Basic?</a><br><br>— Работает абсолютно на всех аккаунтах<br>— Среднее время активации — от 5-ти минут до 3-ёх часов<br>— Вернем деньги в случае неудачи<br>— Не слетает / Гарантия на весь срок подписки</attention>
+        </div>
+
+        <div class="show-more buy">
+            <a>Читать полностью</a>
+        </div>
+    
+</div>
+
+
+
+    <div class="preloader item-img" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 10px; width: 500px; margin-top: 10px; max-width: 100%">
+        <img width="500" style="border-radius: 10px" alt="" loading="lazy" src="static/items/nitro_banner.png">
+    </div>
+
+
+
+                    <div class="modal-footer" id="donate-modal-footer">
+                        <br>
+
+                        
+                            <div class="input-block" id="input-amount">
+                                <div class="input-prepend input-append">
+                                    <input type="text" maxlength="5" min="1" onchange="calculate('donate-amount_NitroFull12m', '2499', 'amount_price_NitroFull12m')" id="donate-amount_NitroFull12m" name="num" placeholder="КОЛ-ВО (ПО УМОЛЧАНИЮ - 1)">
+                                    <div class="prepend"><a href="index.html#" rel="nofollow" class="minus" onclick="minus('donate-amount_NitroFull12m', '2499', 'amount_price_NitroFull12m')">-</a></div>
+                                    <div class="append"><a href="index.html#" rel="nofollow" class="plus" onclick="plus('donate-amount_NitroFull12m', '2499', 'amount_price_NitroFull12m')">+</a></div>
+                                </div>
+                            </div>
+                            <br>
+                        
+
+                        <div class="block-middle" style="grid-template-columns: 1fr 1fr; display: grid">
+
+                            <div class="block-left">
+                                
+
+                                    
+                                        <button name="button" data-modal="auth" type="button" class="btn animate purchase">🥶 Приобрести</button>
+                                    
+
+                                
+                            </div>
+
+                            <div class="block-right">
+
+                                <div style="text-align: center; padding-top: 7.5px; font-weight: bold;">
+                                    <span id="amount_price_NitroFull12m">2,499 РУБ</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div></div>
+
+                            </div>
+                                    <div class="data-price"></div>
+                                </div>
+
+                                
+                                
+                                
+                                    <div data-modal="donate" class="item-id animate" data-id="NitroBasic12m">
+                                        <div class="title">Nitro Basic НА ГОД</div>
+                                        <div class="image" style="background-color: #1d0d2d; background-image:url('static/items/nitro.png'); border-radius: 15px"></div>
+
+                                        <div class="price">
+                                            
+                                                <div class="current-price"><span class="text-preloader"><s class="after-preloader" style="color: black"><span style="color: #ed4545">1279</span></s> 1,159 РУБ</span></div>
+                                            
+                                        </div>
+
+                                        <div class="data">
+                                            <div class="data-amounted">1</div>
+                                            <div class="data-min">1</div>
+                                            <div class="data-title">Nitro Basic НА ГОД</div>
+                                            <div class="data-text">Nitro Basic НА ГОД</div>
+                                            <div class="data-description">
+
+
+
+
+
+<div class="text-container">
+    
+        <script type="text/javascript">
+        $(".show-more.buy > a").on("click", function() {
+            var $this = $(this); 
+            var $content = $this.parent().prev("div.contentText");
+            var linkText = $this.text().toUpperCase();    
+
+            if(linkText === "ЧИТАТЬ ПОЛНОСТЬЮ"){
+                linkText = "Скрыть описание";
+                $content.switchClass("hideContent", "showContent", 500);
+            } else {
+                linkText = "Читать полностью";
+                $content.switchClass("showContent", "hideContent", 500);
+            };
+
+            $this.text(linkText);
+        });
+        </script>
+
+        <div class="contentText hideContent">
+            
+            <attention>🥶 <span class="text-bold">Discord Nitro Basic</span> на ваш аккаунт<br><br>— Узнать подробнее о преимуществах подписки <span class="text-bold">Discord Nitro Basic</span> можно здесь — <a style="color: #bd92f5;font-weight: bold;" target="_blank" href="https://support.discord.com/hc/ru/articles/115000435108-%D0%A7%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-Nitro-%D0%B8-Nitro-Basic-">Что такое Nitro и Nitro Basic?</a><br><br>— Работает абсолютно на всех аккаунтах<br>— Среднее время активации — от 5-ти минут до 3-ёх часов<br>— Вернем деньги в случае неудачи<br>— Не слетает / Гарантия на весь срок подписки</attention>
+        </div>
+
+        <div class="show-more buy">
+            <a>Читать полностью</a>
+        </div>
+    
+</div>
+
+
+
+    <div class="preloader item-img" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 10px; width: 500px; margin-top: 10px; max-width: 100%">
+        <img width="500" style="border-radius: 10px" alt="" loading="lazy" src="static/items/basic_image.gif">
+    </div>
+
+
+
+                    <div class="modal-footer" id="donate-modal-footer">
+                        <br>
+
+                        
+                            <div class="input-block" id="input-amount">
+                                <div class="input-prepend input-append">
+                                    <input type="text" maxlength="5" min="1" onchange="calculate('donate-amount_NitroBasic12m', '1159', 'amount_price_NitroBasic12m')" id="donate-amount_NitroBasic12m" name="num" placeholder="КОЛ-ВО (ПО УМОЛЧАНИЮ - 1)">
+                                    <div class="prepend"><a href="index.html#" rel="nofollow" class="minus" onclick="minus('donate-amount_NitroBasic12m', '1159', 'amount_price_NitroBasic12m')">-</a></div>
+                                    <div class="append"><a href="index.html#" rel="nofollow" class="plus" onclick="plus('donate-amount_NitroBasic12m', '1159', 'amount_price_NitroBasic12m')">+</a></div>
+                                </div>
+                            </div>
+                            <br>
+                        
+
+                        <div class="block-middle" style="grid-template-columns: 1fr 1fr; display: grid">
+
+                            <div class="block-left">
+                                
+
+                                    
+                                        <button name="button" data-modal="auth" type="button" class="btn animate purchase">🥶 Приобрести</button>
+                                    
+
+                                
+                            </div>
+
+                            <div class="block-right">
+
+                                <div style="text-align: center; padding-top: 7.5px; font-weight: bold;">
+                                    <span id="amount_price_NitroBasic12m">1,159 РУБ</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div></div>
+
+                            </div>
+                                    <div class="data-price"></div>
+                                </div>
+
+                                
+                                
+                                
+                                    <div data-modal="donate" class="item-id animate" data-id="NitroBasic1m">
+                                        <div class="title">Nitro Basic НА МЕСЯЦ</div>
+                                        <div class="image" style="background-color: #1d0d2d; background-image:url('static/items/nitro.png'); border-radius: 15px"></div>
+
+                                        <div class="price">
+                                            
+                                                <div class="current-price"><span class="text-preloader"><s class="after-preloader" style="color: black"><span style="color: #ed4545">209</span></s> 189 РУБ</span></div>
+                                            
+                                        </div>
+
+                                        <div class="data">
+                                            <div class="data-amounted">1</div>
+                                            <div class="data-min">1</div>
+                                            <div class="data-title">Nitro Basic НА МЕСЯЦ</div>
+                                            <div class="data-text">Nitro Basic НА МЕСЯЦ</div>
+                                            <div class="data-description">
+
+
+
+
+
+<div class="text-container">
+    
+        <script type="text/javascript">
+        $(".show-more.buy > a").on("click", function() {
+            var $this = $(this); 
+            var $content = $this.parent().prev("div.contentText");
+            var linkText = $this.text().toUpperCase();    
+
+            if(linkText === "ЧИТАТЬ ПОЛНОСТЬЮ"){
+                linkText = "Скрыть описание";
+                $content.switchClass("hideContent", "showContent", 500);
+            } else {
+                linkText = "Читать полностью";
+                $content.switchClass("showContent", "hideContent", 500);
+            };
+
+            $this.text(linkText);
+        });
+        </script>
+
+        <div class="contentText hideContent">
+            
+            <attention>🥶 <span class="text-bold">Discord Nitro Basic</span> на ваш аккаунт<br><br>— Узнать подробнее о преимуществах подписки <span class="text-bold">Discord Nitro Basic</span> можно здесь — <a style="color: #bd92f5;font-weight: bold;" target="_blank" href="https://support.discord.com/hc/ru/articles/115000435108-%D0%A7%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-Nitro-%D0%B8-Nitro-Basic-">Что такое Nitro и Nitro Basic?</a><br><br>— Работает абсолютно на всех аккаунтах<br>— Среднее время активации — от 5-ти минут до 3-ёх часов<br>— Вернем деньги в случае неудачи<br>— Не слетает / Гарантия на весь срок подписки</attention>
+        </div>
+
+        <div class="show-more buy">
+            <a>Читать полностью</a>
+        </div>
+    
+</div>
+
+
+
+    <div class="preloader item-img" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 10px; width: 500px; margin-top: 10px; max-width: 100%">
+        <img width="500" style="border-radius: 10px" alt="" loading="lazy" src="static/items/basic_image.gif">
+    </div>
+
+
+
+                    <div class="modal-footer" id="donate-modal-footer">
+                        <br>
+
+                        
+                            <div class="input-block" id="input-amount">
+                                <div class="input-prepend input-append">
+                                    <input type="text" maxlength="5" min="1" onchange="calculate('donate-amount_NitroBasic1m', '189', 'amount_price_NitroBasic1m')" id="donate-amount_NitroBasic1m" name="num" placeholder="КОЛ-ВО (ПО УМОЛЧАНИЮ - 1)">
+                                    <div class="prepend"><a href="index.html#" rel="nofollow" class="minus" onclick="minus('donate-amount_NitroBasic1m', '189', 'amount_price_NitroBasic1m')">-</a></div>
+                                    <div class="append"><a href="index.html#" rel="nofollow" class="plus" onclick="plus('donate-amount_NitroBasic1m', '189', 'amount_price_NitroBasic1m')">+</a></div>
+                                </div>
+                            </div>
+                            <br>
+                        
+
+                        <div class="block-middle" style="grid-template-columns: 1fr 1fr; display: grid">
+
+                            <div class="block-left">
+                                
+
+                                    
+                                        <button name="button" data-modal="auth" type="button" class="btn animate purchase">🥶 Приобрести</button>
+                                    
+
+                                
+                            </div>
+
+                            <div class="block-right">
+
+                                <div style="text-align: center; padding-top: 7.5px; font-weight: bold;">
+                                    <span id="amount_price_NitroBasic1m">189 РУБ</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div></div>
+
+                            </div>
+                                    <div class="data-price"></div>
+                                </div>
+
+                                
+                                
+                                
+                                    <div data-modal="donate" class="item-id animate" data-id="boosts1m">
+                                        <div class="title">Буст на дискорд сервер・1 месяц</div>
+                                        <div class="image" style="background-color: #1d0d2d; background-image:url('static/items/boost3m.png'); border-radius: 15px"></div>
+
+                                        <div class="price">
+                                            
+                                                <div class="current-price"><span class="text-preloader"><s class="after-preloader" style="color: black"><span style="color: #ed4545">39</span></s> 29 РУБ</span></div>
+                                            
+                                        </div>
+
+                                        <div class="data">
+                                            <div class="data-amounted">1</div>
+                                            <div class="data-min">1</div>
+                                            <div class="data-title">Буст на дискорд сервер・1 месяц</div>
+                                            <div class="data-text">Буст на дискорд сервер・1 месяц</div>
+                                            <div class="data-description">
+
+
+
+
+
+<div class="text-container">
+    
+        <script type="text/javascript">
+        $(".show-more.buy > a").on("click", function() {
+            var $this = $(this); 
+            var $content = $this.parent().prev("div.contentText");
+            var linkText = $this.text().toUpperCase();    
+
+            if(linkText === "ЧИТАТЬ ПОЛНОСТЬЮ"){
+                linkText = "Скрыть описание";
+                $content.switchClass("hideContent", "showContent", 500);
+            } else {
+                linkText = "Читать полностью";
+                $content.switchClass("showContent", "hideContent", 500);
+            };
+
+            $this.text(linkText);
+        });
+        </script>
+
+        <div class="contentText hideContent">
+            
+            <attention>✅ Выдаю доступ к аккаунтам с бустами (если вы покупаете нечётное кол-во бустов, то доступ к одному бусту не выдаем, т.к 1 аккаунт - 2 буста)<br><br>— <span class="text-bold">1 УРОВЕНЬ・2 БУСТА - 58 РУБ</span>:<br>Самый низкий уровень бустов, мало преимуществ: 100 слотов для эмодзи, анимированный значок сервера, более высокое качество звука и др.<br><br>— <span class="text-bold">2 УРОВЕНЬ・7 БУСТОВ - 203 РУБ</span>:<br>Средний уровень бустов, из главных преимуществ - баннер сервера, значки пользовательских ролей, загрузка файлов до 50мб для всех участников и трансляции в разрешении HD.<br><br>— <span class="text-bold">3 УРОВЕНЬ・14 БУСТОВ - 406 РУБ</span>:<br>Самый высокий уровень бустов, из главных преимуществ - пользовательская ссылка-приглашение на сервер, загрузка файлов до 50мб для всех участников, анимированный баннер сервера и др.<br><br>— Узнать подробнее о преимуществах бустов можно здесь – <a style="color: #bd92f5;font-weight: bold;" target="_blank" href="https://support.discord.com/hc/ru/articles/360028038352-%D0%A7%D0%B0%D0%92%D0%BE-%D0%BF%D0%BE-%D0%B1%D1%83%D1%81%D1%82%D0%B0%D0%BC-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0-">ЧаВо по бустам сервера 💨</a><br><br>— Срок буста(-ов) — 1 месяц<br>— Выдача буста(-ов) происходит через наши аккаунты<br>— Бусты не слетят с учетом того, что мы выдаем доступ к аккаунтам. Если бусты аннулируются на аккаунтах - мы сделаем возврат средств</attention>
+        </div>
+
+        <div class="show-more buy">
+            <a>Читать полностью</a>
+        </div>
+    
+</div>
+
+
+
+    <div class="preloader item-img" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 10px; width: 500px; margin-top: 10px; max-width: 100%">
+        <img width="500" style="border-radius: 10px" alt="" loading="lazy" src="static/items/boosts_image.png">
+    </div>
+
+
+
+                    <div class="modal-footer" id="donate-modal-footer">
+                        <br>
+
+                        
+                            <div class="input-block" id="input-amount">
+                                <div class="input-prepend input-append">
+                                    <input type="text" maxlength="5" min="1" onchange="calculate('donate-amount_boosts1m', '29', 'amount_price_boosts1m')" id="donate-amount_boosts1m" name="num" placeholder="КОЛ-ВО (ПО УМОЛЧАНИЮ - 1)">
+                                    <div class="prepend"><a href="index.html#" rel="nofollow" class="minus" onclick="minus('donate-amount_boosts1m', '29', 'amount_price_boosts1m')">-</a></div>
+                                    <div class="append"><a href="index.html#" rel="nofollow" class="plus" onclick="plus('donate-amount_boosts1m', '29', 'amount_price_boosts1m')">+</a></div>
+                                </div>
+                            </div>
+                            <br>
+                        
+
+                        <div class="block-middle" style="grid-template-columns: 1fr 1fr; display: grid">
+
+                            <div class="block-left">
+                                
+
+                                    
+                                        <button name="button" data-modal="auth" type="button" class="btn animate purchase">🥶 Приобрести</button>
+                                    
+
+                                
+                            </div>
+
+                            <div class="block-right">
+
+                                <div style="text-align: center; padding-top: 7.5px; font-weight: bold;">
+                                    <span id="amount_price_boosts1m">29 РУБ</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div></div>
+
+                            </div>
+                                    <div class="data-price"></div>
+                                </div>
+
+                                
+                                
+                                
+                                    <div data-modal="donate" class="item-id animate" data-id="boosts3m">
+                                        <div class="title">Буст на дискорд сервер・3 месяца</div>
+                                        <div class="image" style="background-color: #1d0d2d; background-image:url('static/items/boost3m.png'); border-radius: 15px"></div>
+
+                                        <div class="price">
+                                            
+                                                <div class="current-price"><span class="text-preloader"><s class="after-preloader" style="color: black"><span style="color: #ed4545">59</span></s> 49 РУБ</span></div>
+                                            
+                                        </div>
+
+                                        <div class="data">
+                                            <div class="data-amounted">1</div>
+                                            <div class="data-min">1</div>
+                                            <div class="data-title">Буст на дискорд сервер・3 месяца</div>
+                                            <div class="data-text">Буст на дискорд сервер・3 месяца</div>
+                                            <div class="data-description">
+
+
+
+
+
+<div class="text-container">
+    
+        <script type="text/javascript">
+        $(".show-more.buy > a").on("click", function() {
+            var $this = $(this); 
+            var $content = $this.parent().prev("div.contentText");
+            var linkText = $this.text().toUpperCase();    
+
+            if(linkText === "ЧИТАТЬ ПОЛНОСТЬЮ"){
+                linkText = "Скрыть описание";
+                $content.switchClass("hideContent", "showContent", 500);
+            } else {
+                linkText = "Читать полностью";
+                $content.switchClass("showContent", "hideContent", 500);
+            };
+
+            $this.text(linkText);
+        });
+        </script>
+
+        <div class="contentText hideContent">
+            
+            <attention>✅ Выдаю доступ к аккаунтам с бустами (если вы покупаете нечётное кол-во бустов, то доступ к одному бусту не выдаем, т.к 1 аккаунт - 2 буста)<br><br>— <span class="text-bold">1 УРОВЕНЬ・2 БУСТА - 98 РУБ</span>:<br>Самый низкий уровень бустов, мало преимуществ: 100 слотов для эмодзи, анимированный значок сервера, более высокое качество звука и др.<br><br>— <span class="text-bold">2 УРОВЕНЬ・7 БУСТОВ - 343 РУБ</span>:<br>Средний уровень бустов, из главных преимуществ - баннер сервера, значки пользовательских ролей, загрузка файлов до 50мб для всех участников и трансляции в разрешении HD.<br><br>— <span class="text-bold">3 УРОВЕНЬ・14 БУСТОВ - 686 РУБ</span>:<br>Самый высокий уровень бустов, из главных преимуществ - пользовательская ссылка-приглашение на сервер, загрузка файлов до 50мб для всех участников, анимированный баннер сервера и др.<br><br>— Узнать подробнее о преимуществах бустов можно здесь – <a style="color: #bd92f5;font-weight: bold;" target="_blank" href="https://support.discord.com/hc/ru/articles/360028038352-%D0%A7%D0%B0%D0%92%D0%BE-%D0%BF%D0%BE-%D0%B1%D1%83%D1%81%D1%82%D0%B0%D0%BC-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0-">ЧаВо по бустам сервера 💨</a><br><br>— Срок буста(-ов) — 3 месяца<br>— Выдача буста(-ов) происходит через наши аккаунты<br>— Бусты не слетят с учетом того, что мы выдаем доступ к аккаунтам. Если бусты аннулируются на аккаунтах - мы сделаем возврат средств</attention>
+        </div>
+
+        <div class="show-more buy">
+            <a>Читать полностью</a>
+        </div>
+    
+</div>
+
+
+
+    <div class="preloader item-img" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 10px; width: 500px; margin-top: 10px; max-width: 100%">
+        <img width="500" style="border-radius: 10px" alt="" loading="lazy" src="static/items/boosts_image.png">
+    </div>
+
+
+
+                    <div class="modal-footer" id="donate-modal-footer">
+                        <br>
+
+                        
+                            <div class="input-block" id="input-amount">
+                                <div class="input-prepend input-append">
+                                    <input type="text" maxlength="5" min="1" onchange="calculate('donate-amount_boosts3m', '49', 'amount_price_boosts3m')" id="donate-amount_boosts3m" name="num" placeholder="КОЛ-ВО (ПО УМОЛЧАНИЮ - 1)">
+                                    <div class="prepend"><a href="index.html#" rel="nofollow" class="minus" onclick="minus('donate-amount_boosts3m', '49', 'amount_price_boosts3m')">-</a></div>
+                                    <div class="append"><a href="index.html#" rel="nofollow" class="plus" onclick="plus('donate-amount_boosts3m', '49', 'amount_price_boosts3m')">+</a></div>
+                                </div>
+                            </div>
+                            <br>
+                        
+
+                        <div class="block-middle" style="grid-template-columns: 1fr 1fr; display: grid">
+
+                            <div class="block-left">
+                                
+
+                                    
+                                        <button name="button" data-modal="auth" type="button" class="btn animate purchase">🥶 Приобрести</button>
+                                    
+
+                                
+                            </div>
+
+                            <div class="block-right">
+
+                                <div style="text-align: center; padding-top: 7.5px; font-weight: bold;">
+                                    <span id="amount_price_boosts3m">49 РУБ</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div></div>
+
+                            </div>
+                                    <div class="data-price"></div>
+                                </div>
+
+                                
+                                
+                                
+                                    <div data-modal="donate" class="item-id animate" data-id="monstersDecorations">
+                                        <div class="title">Любое Lunar New Year украшение</div>
+                                        <div class="image" style="background-color: #1d0d2d; background-image:url('static/items/discord_halloween_image.png'); border-radius: 15px"></div>
+
+                                        <div class="price">
+                                            
+                                                <div class="current-price"><span class="text-preloader"><s class="after-preloader" style="color: black"><span style="color: #ed4545">269</span></s> 239 РУБ</span></div>
+                                            
+                                        </div>
+
+                                        <div class="data">
+                                            <div class="data-amounted">1</div>
+                                            <div class="data-min">1</div>
+                                            <div class="data-title">Любое Lunar New Year украшение</div>
+                                            <div class="data-text">Любое Lunar New Year украшение</div>
+                                            <div class="data-description">
+
+
+
+
+
+<div class="text-container">
+    
+        <script type="text/javascript">
+        $(".show-more.buy > a").on("click", function() {
+            var $this = $(this); 
+            var $content = $this.parent().prev("div.contentText");
+            var linkText = $this.text().toUpperCase();    
+
+            if(linkText === "ЧИТАТЬ ПОЛНОСТЬЮ"){
+                linkText = "Скрыть описание";
+                $content.switchClass("hideContent", "showContent", 500);
+            } else {
+                linkText = "Читать полностью";
+                $content.switchClass("showContent", "hideContent", 500);
+            };
+
+            $this.text(linkText);
+        });
+        </script>
+
+        <div class="contentText hideContent">
+            
+            <attention>😎 Украшения аватара позволяют вам персонализировать и стилизовать свой аватар в Discord! Собранные украшения останутся у вас, и вы сможете придать своему аватару и эстетике профиля все виды изящества, когда захотите.<br><br>⛔ Подходит только для тех, у кого есть нитро на аккаунте<br><br>— Работает абсолютно на всех аккаунтах<br>— Среднее время активации — от 5-ти минут до 3-ёх часов<br>— Украшение после окончания нитро остается<br>— Вернем деньги в случае неудачи<br>— Не слетает / Гарантия — навсегда</attention>
+        </div>
+
+        <div class="show-more buy">
+            <a>Читать полностью</a>
+        </div>
+    
+</div>
+
+
+
+    <div class="preloader item-img" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 10px; width: 500px; margin-top: 10px; max-width: 100%">
+        <img width="500" style="border-radius: 10px" alt="" loading="lazy" src="static/items/decorations_banner.png">
+    </div>
+
+
+
+                    <div class="modal-footer" id="donate-modal-footer">
+                        <br>
+
+                        
+                            <div class="input-block" id="input-amount">
+                                <div class="input-prepend input-append">
+                                    <input type="text" maxlength="5" min="1" onchange="calculate('donate-amount_monstersDecorations', '239', 'amount_price_monstersDecorations')" id="donate-amount_monstersDecorations" name="num" placeholder="КОЛ-ВО (ПО УМОЛЧАНИЮ - 1)">
+                                    <div class="prepend"><a href="index.html#" rel="nofollow" class="minus" onclick="minus('donate-amount_monstersDecorations', '239', 'amount_price_monstersDecorations')">-</a></div>
+                                    <div class="append"><a href="index.html#" rel="nofollow" class="plus" onclick="plus('donate-amount_monstersDecorations', '239', 'amount_price_monstersDecorations')">+</a></div>
+                                </div>
+                            </div>
+                            <br>
+                        
+
+                        <div class="block-middle" style="grid-template-columns: 1fr 1fr; display: grid">
+
+                            <div class="block-left">
+                                
+
+                                    
+                                        <button name="button" data-modal="auth" type="button" class="btn animate purchase">🥶 Приобрести</button>
+                                    
+
+                                
+                            </div>
+
+                            <div class="block-right">
+
+                                <div style="text-align: center; padding-top: 7.5px; font-weight: bold;">
+                                    <span id="amount_price_monstersDecorations">239 РУБ</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div></div>
+
+                            </div>
+                                    <div class="data-price"></div>
+                                </div>
+
+                                
+                                
+                                
+                                    <div data-modal="donate" class="item-id animate" data-id="fantasyDecorations">
+                                        <div class="title">Любое Cyberpunk украшение</div>
+                                        <div class="image" style="background-color: #1d0d2d; background-image:url('static/items/discord_halloween_image.png'); border-radius: 15px"></div>
+
+                                        <div class="price">
+                                            
+                                                <div class="current-price"><span class="text-preloader"><s class="after-preloader" style="color: black"><span style="color: #ed4545">269</span></s> 239 РУБ</span></div>
+                                            
+                                        </div>
+
+                                        <div class="data">
+                                            <div class="data-amounted">1</div>
+                                            <div class="data-min">1</div>
+                                            <div class="data-title">Любое Cyberpunk украшение</div>
+                                            <div class="data-text">Любое Cyberpunk украшение</div>
+                                            <div class="data-description">
+
+
+
+
+
+<div class="text-container">
+    
+        <script type="text/javascript">
+        $(".show-more.buy > a").on("click", function() {
+            var $this = $(this); 
+            var $content = $this.parent().prev("div.contentText");
+            var linkText = $this.text().toUpperCase();    
+
+            if(linkText === "ЧИТАТЬ ПОЛНОСТЬЮ"){
+                linkText = "Скрыть описание";
+                $content.switchClass("hideContent", "showContent", 500);
+            } else {
+                linkText = "Читать полностью";
+                $content.switchClass("showContent", "hideContent", 500);
+            };
+
+            $this.text(linkText);
+        });
+        </script>
+
+        <div class="contentText hideContent">
+            
+            <attention>😎 Украшения аватара позволяют вам персонализировать и стилизовать свой аватар в Discord! Собранные украшения останутся у вас, и вы сможете придать своему аватару и эстетике профиля все виды изящества, когда захотите.<br><br>⛔ Подходит только для тех, у кого есть нитро на аккаунте<br><br>— Работает абсолютно на всех аккаунтах<br>— Среднее время активации — от 5-ти минут до 3-ёх часов<br>— Украшение после окончания нитро остается<br>— Вернем деньги в случае неудачи<br>— Не слетает / Гарантия — навсегда</attention>
+        </div>
+
+        <div class="show-more buy">
+            <a>Читать полностью</a>
+        </div>
+    
+</div>
+
+
+
+    <div class="preloader item-img" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 10px; width: 500px; margin-top: 10px; max-width: 100%">
+        <img width="500" style="border-radius: 10px" alt="" loading="lazy" src="static/items/decorations_banner.png">
+    </div>
+
+
+
+                    <div class="modal-footer" id="donate-modal-footer">
+                        <br>
+
+                        
+                            <div class="input-block" id="input-amount">
+                                <div class="input-prepend input-append">
+                                    <input type="text" maxlength="5" min="1" onchange="calculate('donate-amount_fantasyDecorations', '239', 'amount_price_fantasyDecorations')" id="donate-amount_fantasyDecorations" name="num" placeholder="КОЛ-ВО (ПО УМОЛЧАНИЮ - 1)">
+                                    <div class="prepend"><a href="index.html#" rel="nofollow" class="minus" onclick="minus('donate-amount_fantasyDecorations', '239', 'amount_price_fantasyDecorations')">-</a></div>
+                                    <div class="append"><a href="index.html#" rel="nofollow" class="plus" onclick="plus('donate-amount_fantasyDecorations', '239', 'amount_price_fantasyDecorations')">+</a></div>
+                                </div>
+                            </div>
+                            <br>
+                        
+
+                        <div class="block-middle" style="grid-template-columns: 1fr 1fr; display: grid">
+
+                            <div class="block-left">
+                                
+
+                                    
+                                        <button name="button" data-modal="auth" type="button" class="btn animate purchase">🥶 Приобрести</button>
+                                    
+
+                                
+                            </div>
+
+                            <div class="block-right">
+
+                                <div style="text-align: center; padding-top: 7.5px; font-weight: bold;">
+                                    <span id="amount_price_fantasyDecorations">239 РУБ</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div></div>
+
+                            </div>
+                                    <div class="data-price"></div>
+                                </div>
+
+                                
+                                
+                                
+                                    <div data-modal="donate" class="item-id animate" data-id="animeDecorations">
+                                        <div class="title">Любое Fantasy украшение</div>
+                                        <div class="image" style="background-color: #1d0d2d; background-image:url('static/items/discord_halloween_image.png'); border-radius: 15px"></div>
+
+                                        <div class="price">
+                                            
+                                                <div class="current-price"><span class="text-preloader"><s class="after-preloader" style="color: black"><span style="color: #ed4545">329</span></s> 299 РУБ</span></div>
+                                            
+                                        </div>
+
+                                        <div class="data">
+                                            <div class="data-amounted">1</div>
+                                            <div class="data-min">1</div>
+                                            <div class="data-title">Любое Fantasy украшение</div>
+                                            <div class="data-text">Любое Fantasy украшение</div>
+                                            <div class="data-description">
+
+
+
+
+
+<div class="text-container">
+    
+        <script type="text/javascript">
+        $(".show-more.buy > a").on("click", function() {
+            var $this = $(this); 
+            var $content = $this.parent().prev("div.contentText");
+            var linkText = $this.text().toUpperCase();    
+
+            if(linkText === "ЧИТАТЬ ПОЛНОСТЬЮ"){
+                linkText = "Скрыть описание";
+                $content.switchClass("hideContent", "showContent", 500);
+            } else {
+                linkText = "Читать полностью";
+                $content.switchClass("showContent", "hideContent", 500);
+            };
+
+            $this.text(linkText);
+        });
+        </script>
+
+        <div class="contentText hideContent">
+            
+            <attention>😎 Украшения аватара позволяют вам персонализировать и стилизовать свой аватар в Discord! Собранные украшения останутся у вас, и вы сможете придать своему аватару и эстетике профиля все виды изящества, когда захотите.<br>            <br>⛔ Подходит только для тех, у кого есть нитро на аккаунте<br><br>— Работает абсолютно на всех аккаунтах<br>— Среднее время активации — от 5-ти минут до 3-ёх часов<br>— Украшение после окончания нитро остается<br>— Вернем деньги в случае неудачи<br>— Не слетает / Гарантия — навсегда</attention>
+        </div>
+
+        <div class="show-more buy">
+            <a>Читать полностью</a>
+        </div>
+    
+</div>
+
+
+
+    <div class="preloader item-img" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 10px; width: 500px; margin-top: 10px; max-width: 100%">
+        <img width="500" style="border-radius: 10px" alt="" loading="lazy" src="static/items/decorations_banner.png">
+    </div>
+
+
+
+                    <div class="modal-footer" id="donate-modal-footer">
+                        <br>
+
+                        
+                            <div class="input-block" id="input-amount">
+                                <div class="input-prepend input-append">
+                                    <input type="text" maxlength="5" min="1" onchange="calculate('donate-amount_animeDecorations', '299', 'amount_price_animeDecorations')" id="donate-amount_animeDecorations" name="num" placeholder="КОЛ-ВО (ПО УМОЛЧАНИЮ - 1)">
+                                    <div class="prepend"><a href="index.html#" rel="nofollow" class="minus" onclick="minus('donate-amount_animeDecorations', '299', 'amount_price_animeDecorations')">-</a></div>
+                                    <div class="append"><a href="index.html#" rel="nofollow" class="plus" onclick="plus('donate-amount_animeDecorations', '299', 'amount_price_animeDecorations')">+</a></div>
+                                </div>
+                            </div>
+                            <br>
+                        
+
+                        <div class="block-middle" style="grid-template-columns: 1fr 1fr; display: grid">
+
+                            <div class="block-left">
+                                
+
+                                    
+                                        <button name="button" data-modal="auth" type="button" class="btn animate purchase">🥶 Приобрести</button>
+                                    
+
+                                
+                            </div>
+
+                            <div class="block-right">
+
+                                <div style="text-align: center; padding-top: 7.5px; font-weight: bold;">
+                                    <span id="amount_price_animeDecorations">400 РУБ</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div></div>
+
+                            </div>
+                                    <div class="data-price"></div>
+                                </div>
+
+                                
+                                
+                                
+                                    <div data-modal="donate" class="item-id animate" data-id="breakfastDecorations">
+                                        <div class="title">Любое Anime украшение</div>
+                                        <div class="image" style="background-color: #1d0d2d; background-image:url('static/items/discord_halloween_image.png'); border-radius: 15px"></div>
+
+                                        <div class="price">
+                                            
+                                                <div class="current-price"><span class="text-preloader"><s class="after-preloader" style="color: black"><span style="color: #ed4545">279</span></s> 249 РУБ</span></div>
+                                            
+                                        </div>
+
+                                        <div class="data">
+                                            <div class="data-amounted">1</div>
+                                            <div class="data-min">1</div>
+                                            <div class="data-title">Любое Anime украшение</div>
+                                            <div class="data-text">Любое Anime украшение</div>
+                                            <div class="data-description">
+
+
+
+
+
+<div class="text-container">
+    
+        <script type="text/javascript">
+        $(".show-more.buy > a").on("click", function() {
+            var $this = $(this); 
+            var $content = $this.parent().prev("div.contentText");
+            var linkText = $this.text().toUpperCase();    
+
+            if(linkText === "ЧИТАТЬ ПОЛНОСТЬЮ"){
+                linkText = "Скрыть описание";
+                $content.switchClass("hideContent", "showContent", 500);
+            } else {
+                linkText = "Читать полностью";
+                $content.switchClass("showContent", "hideContent", 500);
+            };
+
+            $this.text(linkText);
+        });
+        </script>
+
+        <div class="contentText hideContent">
+            
+            <attention>😎 Украшения аватара позволяют вам персонализировать и стилизовать свой аватар в Discord! Собранные украшения останутся у вас, и вы сможете придать своему аватару и эстетике профиля все виды изящества, когда захотите.<br><br>⛔ Подходит только для тех, у кого есть нитро на аккаунте<br><br>— Работает абсолютно на всех аккаунтах<br>— Среднее время активации — от 5-ти минут до 3-ёх часов<br>— Украшение после окончания нитро остается<br>— Вернем деньги в случае неудачи<br>— Не слетает / Гарантия — навсегда</attention>
+        </div>
+
+        <div class="show-more buy">
+            <a>Читать полностью</a>
+        </div>
+    
+</div>
+
+
+
+    <div class="preloader item-img" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 10px; width: 500px; margin-top: 10px; max-width: 100%">
+        <img width="500" style="border-radius: 10px" alt="" loading="lazy" src="static/items/decorations_banner.png">
+    </div>
+
+
+
+                    <div class="modal-footer" id="donate-modal-footer">
+                        <br>
+
+                        
+                            <div class="input-block" id="input-amount">
+                                <div class="input-prepend input-append">
+                                    <input type="text" maxlength="5" min="1" onchange="calculate('donate-amount_breakfastDecorations', '249', 'amount_price_breakfastDecorations')" id="donate-amount_breakfastDecorations" name="num" placeholder="КОЛ-ВО (ПО УМОЛЧАНИЮ - 1)">
+                                    <div class="prepend"><a href="index.html#" rel="nofollow" class="minus" onclick="minus('donate-amount_breakfastDecorations', '249', 'amount_price_breakfastDecorations')">-</a></div>
+                                    <div class="append"><a href="index.html#" rel="nofollow" class="plus" onclick="plus('donate-amount_breakfastDecorations', '249', 'amount_price_breakfastDecorations')">+</a></div>
+                                </div>
+                            </div>
+                            <br>
+                        
+
+                        <div class="block-middle" style="grid-template-columns: 1fr 1fr; display: grid">
+
+                            <div class="block-left">
+                                
+
+                                    
+                                        <button name="button" data-modal="auth" type="button" class="btn animate purchase">🥶 Приобрести</button>
+                                    
+
+                                
+                            </div>
+
+                            <div class="block-right">
+
+                                <div style="text-align: center; padding-top: 7.5px; font-weight: bold;">
+                                    <span id="amount_price_breakfastDecorations">249 РУБ</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div></div>
+
+                            </div>
+                                    <div class="data-price"></div>
+                                </div>
+
+                                
+                                
+                                
+                                    <div data-modal="donate" class="item-id animate" data-id="BreakfastEffectProfile">
+                                        <div class="title">Lunar New Year эффект профиля</div>
+                                        <div class="image" style="background-color: #1d0d2d; background-image:url('static/items/effect_profile.png'); border-radius: 15px"></div>
+
+                                        <div class="price">
+                                            
+                                                <div class="current-price"><span class="text-preloader"><s class="after-preloader" style="color: black"><span style="color: #ed4545">419</span></s> 379 РУБ</span></div>
+                                            
+                                        </div>
+
+                                        <div class="data">
+                                            <div class="data-amounted">1</div>
+                                            <div class="data-min">1</div>
+                                            <div class="data-title">Lunar New Year эффект профиля</div>
+                                            <div class="data-text">Lunar New Year эффект профиля</div>
+                                            <div class="data-description">
+
+
+
+
+
+<div class="text-container">
+    
+        <script type="text/javascript">
+        $(".show-more.buy > a").on("click", function() {
+            var $this = $(this); 
+            var $content = $this.parent().prev("div.contentText");
+            var linkText = $this.text().toUpperCase();    
+
+            if(linkText === "ЧИТАТЬ ПОЛНОСТЬЮ"){
+                linkText = "Скрыть описание";
+                $content.switchClass("hideContent", "showContent", 500);
+            } else {
+                linkText = "Читать полностью";
+                $content.switchClass("showContent", "hideContent", 500);
+            };
+
+            $this.text(linkText);
+        });
+        </script>
+
+        <div class="contentText hideContent">
+            
+            <attention>😎 Украшения аватара позволяют вам персонализировать и стилизовать свой аватар в Discord! Собранные украшения останутся у вас, и вы сможете придать своему аватару и эстетике профиля все виды изящества, когда захотите.<br><br>⛔ Подходит только для тех, у кого есть нитро на аккаунте<br><br>— Работает абсолютно на всех аккаунтах<br>— Среднее время активации — от 5-ти минут до 3-ёх часов<br>— Эффект профиля после окончания нитро остается<br>— Вернем деньги в случае неудачи<br>— Не слетает / Гарантия — навсегда</attention>
+        </div>
+
+        <div class="show-more buy">
+            <a>Читать полностью</a>
+        </div>
+    
+</div>
+
+
+
+    <div class="preloader item-img" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 10px; width: 500px; margin-top: 10px; max-width: 100%">
+        <img width="500" style="border-radius: 10px" alt="" loading="lazy" src="static/items/decorations_banner.png">
+    </div>
+
+
+
+                    <div class="modal-footer" id="donate-modal-footer">
+                        <br>
+
+                        
+                            <div class="input-block" id="input-amount">
+                                <div class="input-prepend input-append">
+                                    <input type="text" maxlength="5" min="1" onchange="calculate('donate-amount_BreakfastEffectProfile', '379', 'amount_price_BreakfastEffectProfile')" id="donate-amount_BreakfastEffectProfile" name="num" placeholder="КОЛ-ВО (ПО УМОЛЧАНИЮ - 1)">
+                                    <div class="prepend"><a href="index.html#" rel="nofollow" class="minus" onclick="minus('donate-amount_BreakfastEffectProfile', '379', 'amount_price_BreakfastEffectProfile')">-</a></div>
+                                    <div class="append"><a href="index.html#" rel="nofollow" class="plus" onclick="plus('donate-amount_BreakfastEffectProfile', '379', 'amount_price_BreakfastEffectProfile')">+</a></div>
+                                </div>
+                            </div>
+                            <br>
+                        
+
+                        <div class="block-middle" style="grid-template-columns: 1fr 1fr; display: grid">
+
+                            <div class="block-left">
+                                
+
+                                    
+                                        <button name="button" data-modal="auth" type="button" class="btn animate purchase">🥶 Приобрести</button>
+                                    
+
+                                
+                            </div>
+
+                            <div class="block-right">
+
+                                <div style="text-align: center; padding-top: 7.5px; font-weight: bold;">
+                                    <span id="amount_price_BreakfastEffectProfile">379 РУБ</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div></div>
+
+                            </div>
+                                    <div class="data-price"></div>
+                                </div>
+
+                                
+                                
+                                
+                                    <div data-modal="donate" class="item-id animate" data-id="MonstersEffectProfile">
+                                        <div class="title">Любой Cyberpunk эффект профиля</div>
+                                        <div class="image" style="background-color: #1d0d2d; background-image:url('static/items/effect_profile.png'); border-radius: 15px"></div>
+
+                                        <div class="price">
+                                            
+                                                <div class="current-price"><span class="text-preloader"><s class="after-preloader" style="color: black"><span style="color: #ed4545">219</span></s> 199 РУБ</span></div>
+                                            
+                                        </div>
+
+                                        <div class="data">
+                                            <div class="data-amounted">1</div>
+                                            <div class="data-min">1</div>
+                                            <div class="data-title">Любой Cyberpunk эффект профиля</div>
+                                            <div class="data-text">Любой Cyberpunk эффект профиля</div>
+                                            <div class="data-description">
+
+
+
+
+
+<div class="text-container">
+    
+        <script type="text/javascript">
+        $(".show-more.buy > a").on("click", function() {
+            var $this = $(this); 
+            var $content = $this.parent().prev("div.contentText");
+            var linkText = $this.text().toUpperCase();    
+
+            if(linkText === "ЧИТАТЬ ПОЛНОСТЬЮ"){
+                linkText = "Скрыть описание";
+                $content.switchClass("hideContent", "showContent", 500);
+            } else {
+                linkText = "Читать полностью";
+                $content.switchClass("showContent", "hideContent", 500);
+            };
+
+            $this.text(linkText);
+        });
+        </script>
+
+        <div class="contentText hideContent">
+            
+            <attention>😎 Украшения аватара позволяют вам персонализировать и стилизовать свой аватар в Discord! Собранные украшения останутся у вас, и вы сможете придать своему аватару и эстетике профиля все виды изящества, когда захотите.<br><br>⛔ Подходит только для тех, у кого есть нитро на аккаунте<br><br>— Работает абсолютно на всех аккаунтах<br>— Среднее время активации — от 5-ти минут до 3-ёх часов<br>— Эффект профиля после окончания нитро остается<br>— Вернем деньги в случае неудачи<br>— Не слетает / Гарантия — навсегда</attention>
+        </div>
+
+        <div class="show-more buy">
+            <a>Читать полностью</a>
+        </div>
+    
+</div>
+
+
+
+    <div class="preloader item-img" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 10px; width: 500px; margin-top: 10px; max-width: 100%">
+        <img width="500" style="border-radius: 10px" alt="" loading="lazy" src="static/items/decorations_banner.png">
+    </div>
+
+
+
+                    <div class="modal-footer" id="donate-modal-footer">
+                        <br>
+
+                        
+                            <div class="input-block" id="input-amount">
+                                <div class="input-prepend input-append">
+                                    <input type="text" maxlength="5" min="1" onchange="calculate('donate-amount_MonstersEffectProfile', '199', 'amount_price_MonstersEffectProfile')" id="donate-amount_MonstersEffectProfile" name="num" placeholder="КОЛ-ВО (ПО УМОЛЧАНИЮ - 1)">
+                                    <div class="prepend"><a href="index.html#" rel="nofollow" class="minus" onclick="minus('donate-amount_MonstersEffectProfile', '199', 'amount_price_MonstersEffectProfile')">-</a></div>
+                                    <div class="append"><a href="index.html#" rel="nofollow" class="plus" onclick="plus('donate-amount_MonstersEffectProfile', '199', 'amount_price_MonstersEffectProfile')">+</a></div>
+                                </div>
+                            </div>
+                            <br>
+                        
+
+                        <div class="block-middle" style="grid-template-columns: 1fr 1fr; display: grid">
+
+                            <div class="block-left">
+                                
+
+                                    
+                                        <button name="button" data-modal="auth" type="button" class="btn animate purchase">🥶 Приобрести</button>
+                                    
+
+                                
+                            </div>
+
+                            <div class="block-right">
+
+                                <div style="text-align: center; padding-top: 7.5px; font-weight: bold;">
+                                    <span id="amount_price_MonstersEffectProfile">199 РУБ</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div></div>
+
+                            </div>
+                                    <div class="data-price"></div>
+                                </div>
+
+                                
+                                
+                                
+                                    <div data-modal="donate" class="item-id animate" data-id="FantasyEffectProfile">
+                                        <div class="title">Любой Fantasy эффект профиля</div>
+                                        <div class="image" style="background-color: #1d0d2d; background-image:url('static/items/effect_profile.png'); border-radius: 15px"></div>
+
+                                        <div class="price">
+                                            
+                                                <div class="current-price"><span class="text-preloader"><s class="after-preloader" style="color: black"><span style="color: #ed4545">419</span></s> 379 РУБ</span></div>
+                                            
+                                        </div>
+
+                                        <div class="data">
+                                            <div class="data-amounted">1</div>
+                                            <div class="data-min">1</div>
+                                            <div class="data-title">Любой Fantasy эффект профиля</div>
+                                            <div class="data-text">Любой Fantasy эффект профиля</div>
+                                            <div class="data-description">
+
+
+
+
+
+<div class="text-container">
+    
+        <script type="text/javascript">
+        $(".show-more.buy > a").on("click", function() {
+            var $this = $(this); 
+            var $content = $this.parent().prev("div.contentText");
+            var linkText = $this.text().toUpperCase();    
+
+            if(linkText === "ЧИТАТЬ ПОЛНОСТЬЮ"){
+                linkText = "Скрыть описание";
+                $content.switchClass("hideContent", "showContent", 500);
+            } else {
+                linkText = "Читать полностью";
+                $content.switchClass("showContent", "hideContent", 500);
+            };
+
+            $this.text(linkText);
+        });
+        </script>
+
+        <div class="contentText hideContent">
+            
+            <attention>😎 Украшения аватара позволяют вам персонализировать и стилизовать свой аватар в Discord! Собранные украшения останутся у вас, и вы сможете придать своему аватару и эстетике профиля все виды изящества, когда захотите.<br><br>⛔ Подходит только для тех, у кого есть нитро на аккаунте<br><br>— Работает абсолютно на всех аккаунтах<br>— Среднее время активации — от 5-ти минут до 3-ёх часов<br>— Эффект профиля после окончания нитро остается<br>— Вернем деньги в случае неудачи<br>— Не слетает / Гарантия — навсегда</attention>
+        </div>
+
+        <div class="show-more buy">
+            <a>Читать полностью</a>
+        </div>
+    
+</div>
+
+
+
+    <div class="preloader item-img" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 10px; width: 500px; margin-top: 10px; max-width: 100%">
+        <img width="500" style="border-radius: 10px" alt="" loading="lazy" src="static/items/decorations_banner.png">
+    </div>
+
+
+
+                    <div class="modal-footer" id="donate-modal-footer">
+                        <br>
+
+                        
+                            <div class="input-block" id="input-amount">
+                                <div class="input-prepend input-append">
+                                    <input type="text" maxlength="5" min="1" onchange="calculate('donate-amount_FantasyEffectProfile', '379', 'amount_price_FantasyEffectProfile')" id="donate-amount_FantasyEffectProfile" name="num" placeholder="КОЛ-ВО (ПО УМОЛЧАНИЮ - 1)">
+                                    <div class="prepend"><a href="index.html#" rel="nofollow" class="minus" onclick="minus('donate-amount_FantasyEffectProfile', '379', 'amount_price_FantasyEffectProfile')">-</a></div>
+                                    <div class="append"><a href="index.html#" rel="nofollow" class="plus" onclick="plus('donate-amount_FantasyEffectProfile', '379', 'amount_price_FantasyEffectProfile')">+</a></div>
+                                </div>
+                            </div>
+                            <br>
+                        
+
+                        <div class="block-middle" style="grid-template-columns: 1fr 1fr; display: grid">
+
+                            <div class="block-left">
+                                
+
+                                    
+                                        <button name="button" data-modal="auth" type="button" class="btn animate purchase">🥶 Приобрести</button>
+                                    
+
+                                
+                            </div>
+
+                            <div class="block-right">
+
+                                <div style="text-align: center; padding-top: 7.5px; font-weight: bold;">
+                                    <span id="amount_price_FantasyEffectProfile">379 РУБ</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div></div>
+
+                            </div>
+                                    <div class="data-price"></div>
+                                </div>
+
+                                
+                                
+                                
+                                    <div data-modal="donate" class="item-id animate" data-id="AnimeEffectProfile">
+                                        <div class="title">Любой Anime эффект профиля</div>
+                                        <div class="image" style="background-color: #1d0d2d; background-image:url('static/items/effect_profile.png'); border-radius: 15px"></div>
+
+                                        <div class="price">
+                                            
+                                                <div class="current-price"><span class="text-preloader"><s class="after-preloader" style="color: black"><span style="color: #ed4545">419</span></s> 379 РУБ</span></div>
+                                            
+                                        </div>
+
+                                        <div class="data">
+                                            <div class="data-amounted">1</div>
+                                            <div class="data-min">1</div>
+                                            <div class="data-title">Любой Anime эффект профиля</div>
+                                            <div class="data-text">Любой Anime эффект профиля</div>
+                                            <div class="data-description">
+
+
+
+
+
+<div class="text-container">
+    
+        <script type="text/javascript">
+        $(".show-more.buy > a").on("click", function() {
+            var $this = $(this); 
+            var $content = $this.parent().prev("div.contentText");
+            var linkText = $this.text().toUpperCase();    
+
+            if(linkText === "ЧИТАТЬ ПОЛНОСТЬЮ"){
+                linkText = "Скрыть описание";
+                $content.switchClass("hideContent", "showContent", 500);
+            } else {
+                linkText = "Читать полностью";
+                $content.switchClass("showContent", "hideContent", 500);
+            };
+
+            $this.text(linkText);
+        });
+        </script>
+
+        <div class="contentText hideContent">
+            
+            <attention>😎 Украшения аватара позволяют вам персонализировать и стилизовать свой аватар в Discord! Собранные украшения останутся у вас, и вы сможете придать своему аватару и эстетике профиля все виды изящества, когда захотите.<br><br>⛔ Подходит только для тех, у кого есть нитро на аккаунте<br><br>— Работает абсолютно на всех аккаунтах<br>— Среднее время активации — от 5-ти минут до 3-ёх часов<br>— Эффект профиля после окончания нитро остается<br>— Вернем деньги в случае неудачи<br>— Не слетает / Гарантия — навсегда</attention>
+        </div>
+
+        <div class="show-more buy">
+            <a>Читать полностью</a>
+        </div>
+    
+</div>
+
+
+
+    <div class="preloader item-img" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 10px; width: 500px; margin-top: 10px; max-width: 100%">
+        <img width="500" style="border-radius: 10px" alt="" loading="lazy" src="static/items/decorations_banner.png">
+    </div>
+
+
+
+                    <div class="modal-footer" id="donate-modal-footer">
+                        <br>
+
+                        
+                            <div class="input-block" id="input-amount">
+                                <div class="input-prepend input-append">
+                                    <input type="text" maxlength="5" min="1" onchange="calculate('donate-amount_AnimeEffectProfile', '379', 'amount_price_AnimeEffectProfile')" id="donate-amount_AnimeEffectProfile" name="num" placeholder="КОЛ-ВО (ПО УМОЛЧАНИЮ - 1)">
+                                    <div class="prepend"><a href="index.html#" rel="nofollow" class="minus" onclick="minus('donate-amount_AnimeEffectProfile', '379', 'amount_price_AnimeEffectProfile')">-</a></div>
+                                    <div class="append"><a href="index.html#" rel="nofollow" class="plus" onclick="plus('donate-amount_AnimeEffectProfile', '379', 'amount_price_AnimeEffectProfile')">+</a></div>
+                                </div>
+                            </div>
+                            <br>
+                        
+
+                        <div class="block-middle" style="grid-template-columns: 1fr 1fr; display: grid">
+
+                            <div class="block-left">
+                                
+
+                                    
+                                        <button name="button" data-modal="auth" type="button" class="btn animate purchase">🥶 Приобрести</button>
+                                    
+
+                                
+                            </div>
+
+                            <div class="block-right">
+
+                                <div style="text-align: center; padding-top: 7.5px; font-weight: bold;">
+                                    <span id="amount_price_AnimeEffectProfile">379 РУБ</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div></div>
+
+                            </div>
+                                    <div class="data-price"></div>
+                                </div>
+
+                                
+                                
+                            </div>
+                        </div>
+                        </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="mainslide donate">
+</div>
+
+<form method="post" action="https://unitstore.cc/c" class="modal" data-id="donate">
+    <div class="wrapper">
+        <div class="modal-content">
+            <a href="index.html#" rel="nofollow" data-modal-close>&times;</a>
+            <div class="modal-header"></div>
+            <div class="modal-body" style="margin-bottom: 0px">
+                <div class="description"></div>
+        </div>
+    </div>
+</form></div>
+
+<script type="text/javascript">
+function calculate(inputNumberId, number, resultElementId) {
+    var resultElements = document.querySelectorAll('#' + resultElementId);
+    var inputNumber = document.querySelectorAll('#' + inputNumberId)[1].value;
+
+    if ( (inputNumber == NaN) || (inputNumber == 0) ) { 
+        inputNumber = 1;
+    }
+
+    Array.from(resultElements).forEach(resultElement => {
+        if (!isNaN(inputNumber)) {
+            const result = parseFloat(inputNumber) * number;
+            resultElement.textContent = `${result.toLocaleString()} РУБ / ${inputNumber} шт.`;
+        } else {
+            resultElement.textContent = "Неверное число";
+        }
+    } )
+};
+
+function minus(inputNumberId, number, resultElementId) {
+    var resultElements = document.querySelectorAll('#' + resultElementId);
+    var inputNumber = document.querySelectorAll('#' + inputNumberId)[1].value;
+
+    console.log(inputNumber)
+
+
+    if ( (inputNumber == NaN) || (inputNumber == 0) || (inputNumber == -1) || (inputNumber == 1) || (inputNumber == "") ) { 
+        inputNumber = 1;
+    } else {
+        inputNumber = inputNumber -1;
+    }
+
+    Array.from(resultElements).forEach(resultElement => {
+        if (!isNaN(inputNumber)) {
+            const result = parseFloat(inputNumber) * number;
+            resultElement.textContent = `${result.toLocaleString()} РУБ / ${inputNumber} шт.`;
+        } else {
+            resultElement.textContent = "Неверное число";
+        }
+    } );
+};
+
+function plus(inputNumberId, number, resultElementId) {
+    var resultElements = document.querySelectorAll('#' + resultElementId);
+    var inputNumber = document.querySelectorAll('#' + inputNumberId)[1].value;
+
+    if (inputNumber == "") { 
+        inputNumber = inputNumber + 1
+    }
+
+    inputNumber = inputNumber+++
+
+    Array.from(resultElements).forEach(resultElement => {
+        if (!isNaN(inputNumber)) {
+            const result = parseFloat(inputNumber) * number;
+            resultElement.textContent = `${result.toLocaleString()} РУБ / ${inputNumber} шт.`;
+        } else {
+            resultElement.textContent = "Неверное число";
+        };
+    } );
+};
+</script>
+
+
+
+
+
+
+<script>
+setTimeout(function(){
+    $.get('/tracker?url=/&timezone=' + Intl.DateTimeFormat().resolvedOptions().timeZone, function(data) {});
+}, 10);
+</script>
+
+<script>
+if ( window.history.replaceState ) {
+    window.history.replaceState( null, null, window.location.href );
+}
+</script>
+
+<footer class="footer">
+    <div class="container">
+        <div class="block-left">
+            <a href="index.html" class="logo"><span class="text-preloader logo-text">Nitro Hub</span></a>
+        </div>
+
+        <div class="block-center-right">
+            <ul class="social-links">
+                <li>
+                    <a class="footer-link" href="tos.html"><span class="text-preloader">Пользовательское соглашение</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<style>
+body {
+    background-image: url(static/img/header.png);
+}
+</style>
+
+<style>
+body {
+    background-color: #190a25;
+}
+
+.donate .items > .item-list > .item-id {
+    background: #2d253f;
+}
+
+.donate .tabs > .tab-links > li .tab-link:hover,
+.donate .tabs > .tab-links > li .tab-link.active {
+    color: #fff;
+}
+
+.donate .items > .item-list > .item-id > .title, .donate .items > .item-list > .item-id > .price {
+    color: #e1c5e8;
+}
+
+.donate .items > .item-list > .item-id > .price {
+    color: #e1c5e8;
+}
+
+.button-price:hover {
+    background-color: #825fa5;
+    transition: all 0.3s ease-out;
+}
+
+body > .navbar .navbar-wrapper .nav-link:after {
+    bottom: -10px;
+    left: 0;
+    height: 3px;
+    background-color: #956fa6;
+    border-radius: 1.5px;
+}
+
+.modal > .wrapper > .modal-content {
+    background: #2b2235;
+}
+
+.modal[data-id="donate"] > .wrapper > .modal-content .description {
+    color: #e1c5e8;
+}
+
+.modal > .wrapper > .modal-content > .modal-header {
+    color: #e1c5e8;
+}
+
+.modal[data-id="donate"] > .wrapper > .modal-content #input-amount input {
+    background: #272130;
+}
+
+.shadow {
+    background-color: #67467d;
+    color: #e1c5e8;
+}
+
+.donate .items > .item-list > .animate:hover {
+    background-color: #5c4b6f;
+}
+
+.static-page .pagename {
+    color: #e1c5e8;
+}
+
+.minimal {
+    color: #e1c5e8;
+}
+
+.plus {
+    color: #e1c5e8;
+}
+
+.minus {
+    color: #e1c5e8;
+}
+
+input {
+    color: #e1c5e8;
+    background-color: #1e1324;
+}
+
+.static-page .section ul > li {
+    color: #e1c5e8;
+}
+
+.pt-20 {
+    color: #e1c5e8;
+}
+
+.modal > .wrapper > .modal-content > .modal-body {
+    color: #e1c5e8;
+}
+
+.method {
+    background: #583967;
+}
+
+.btn {
+    background: #574069;
+}
+
+.method-text {
+    color: #e1c5e8;
+}
+
+.donate .items > .item-list > .animate:hover > .title {
+    color: #e1c5e8;
+}
+
+.btn {
+    color: white;
+}
+
+.text-center {
+    background-color: #221633;
+    color: #e1c5e8;
+}
+
+.modal[data-id="donate"] > .wrapper > .modal-content input, .modal[data-id="auth"] > .wrapper > .modal-content input, .modal[data-id="2fauth"] > .wrapper > .modal-content input, .modal[data-id="donate"] > .wrapper > .modal-content textarea, .modal[data-id="auth"] > .wrapper > .modal-content textarea, .modal[data-id="2fauth"] > .wrapper > .modal-content textarea {
+    background: #1e1324;
+}
+
+.nav-center > .navbar-menu > .nav-li > .nav-link {
+    color: #e1c5e8;
+    border-radius: 7px;
+}
+
+.show-more a {
+    color: #e1c5e8;
+}
+
+.auth-email-checkmark {
+    background-color: #1f1324;
+    color: #e1c5e8;
+}
+
+.auth-button {
+    background-color: #1f1324;
+}
+
+.show-more:hover a {
+    color: #e1c5e8;
+}
+
+.minimal-text {
+    color: #736187;
+    font-size: 13px;
+}
+
+.small-text {
+    color: #c282c9;
+    font-size: 10px;
+}
+
+@media (max-width: 1000px) {
+    .small-text {
+        font-size: 8px;
+    }
+}
+       
+.navbar.open .navbar-wrapper > .nav-right, .navbar.open .navbar-wrapper > .nav-center {
+    background-color: #1b264d;
+}
+
+body > footer {
+    background-color: #0c0112;
+}
+
+.navbar .navbar-wrapper .nav-link.active, .navbar .navbar-wrapper .nav-link:active, .navbar .navbar-wrapper .nav-link:hover, .navbar .navbar-wrapper .nav-mobile:active, .navbar .navbar-wrapper .nav-mobile:hover, .navbar.open .navbar-wrapper .nav-mobile {
+    background: #805aa5;
+}
+
+.btn:hover {
+    background-color: #825fa5;
+}
+
+.navbar.open .navbar-wrapper > .nav-right, .navbar.open .navbar-wrapper > .nav-center {
+    background-color: #411b4d;
+}
+
+.navbar .navbar-wrapper .nav-mobile:active, .navbar .navbar-wrapper .nav-mobile:hover {
+    background: #9988b3;
+}
+
+.navbar .navbar-wrapper .nav-mobile:hover {
+    background: #9988b3;
+}
+
+.navbar .navbar-wrapper .nav-mobile {
+    background: #9988b3;
+}
+
+.navbar .navbar-wrapper .nav-mobile:hover {
+    background-color: #9988b3;
+}
+
+.static-page .section ul > li:before {
+    background-color: #bd92f5;
+}
+</style>
+
+<script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</script>
+
+<script>
+function preloader()
+{
+   var elements = document.getElementsByClassName("image");
+   for(var i=0; i<elements.length; i++){
+      elements[i].style.backgroundColor = "rgba(0, 0, 0, 0.0)";
+   }
+}
+
+window.addEventListener('load', function() {
+   preloader()
+});
+
+const titles = document.querySelectorAll('.title');
+const after_preloader_elements = document.querySelectorAll('.after-preloader');
+const texts = document.querySelectorAll('.text-preloader');
+
+texts.forEach((text) => {
+  text.style.backgroundColor = '#6c4b75';
+  text.style.borderRadius = '5px';
+  text.style.color = 'rgba(0,0,0,0.0)';
+});
+
+titles.forEach((title) => {
+  title.style.backgroundColor = '#6c4b75';
+  title.style.borderRadius = '5px';
+  title.style.color = 'rgba(0,0,0,0.0)';
+  title.style.fontSize = "14px";
+});
+
+after_preloader_elements.forEach((after_preloader_element) => {
+  after_preloader_element.style.display = 'none';
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    var font = new FontFaceObserver("Acrom");
+    font.load()
+
+    function loadFont() {
+        var font = new FontFaceObserver("Acrom");
+        return font.load().catch(function (error) {
+            console.log("Ошибка загрузки шрифта:", error);
+            return loadFont();
+        });
+    }
+
+    loadFont().then(function () {
+        titles.forEach((title) => {
+          title.style.backgroundColor = 'rgba(0,0,0,0.0)';
+          title.style.color = '#e1c5e8';
+
+          if (title.innerText.length < 23) {
+            title.style.fontSize = "18px";
+          } else {
+            title.style.fontSize = "15.5px";
+          }
+
+        });
+
+        texts.forEach((text) => {
+          text.style.backgroundColor = 'rgba(0,0,0,0.0)';
+          text.style.color = '#e1c5e8';
+        });
+
+        after_preloader_elements.forEach((after_preloader_element) => {
+          after_preloader_element.style.display = '';
+        });
+
+        const logoText = document.querySelector('.logo-text');
+        const navBrandText = document.querySelector('.nav-brand-text');
+
+        logoText.style.color = 'white';
+        navBrandText.style.color = 'white';
+    })
+    .catch(function (error) {
+        console.log("Ошибка загрузки шрифта:", error);
+    });
+});
+</script>
+</body>
+</html>
