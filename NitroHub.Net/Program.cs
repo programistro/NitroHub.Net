@@ -24,6 +24,8 @@ builder.Services.AddScoped<AccountService>();
 // builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
 //     .AddCookie(options => options.LoginPath = "/");
 // builder.Services.AddAuthorization();
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddScoped<AppService>();
 
 builder.Services.AddAuthentication(options =>
     {

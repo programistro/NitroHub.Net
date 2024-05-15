@@ -61,7 +61,9 @@
 @* </html> *@
 
 @using Microsoft.AspNetCore.Components.Authorization
+@using NitroHub.Net.Service
 @model AuthViewModel
+@inject  AppService AppService
 
 <!DOCTYPE html>
 <html lang="ru">
@@ -113,7 +115,12 @@
 </head>
 <body>
 
-
+@{
+    if (AppService.IsPaid())
+    {
+        <p>awd[plwadw</p>
+    }
+}
 
 <style>
     body {
