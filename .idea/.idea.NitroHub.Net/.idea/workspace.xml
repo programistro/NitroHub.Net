@@ -10,7 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8956df9b-44e4-454b-a58d-7f9235e5f957" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/NitroHub.Net/Controllers/PaymentsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NitroHub.Net/Views/Home/ErrorPage.cshtml.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NitroHub.Net/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NitroHub.Net/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NitroHub.Net/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NitroHub.Net/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NitroHub.Net/NitroHub.Net.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NitroHub.Net/NitroHub.Net.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NitroHub.Net/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NitroHub.Net/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NitroHub.Net/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/NitroHub.Net/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NitroHub.Net/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/NitroHub.Net/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NitroHub.Net/wwwroot/uploads/template/img/methods/card.svg.html" beforeDir="false" afterPath="$PROJECT_DIR$/NitroHub.Net/Views/Home/ErrorPage.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +27,16 @@
   </component>
   <component name="DpaMonitoringSettings">
     <option name="autoShow" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/8486d31e24f30e3fa1809a95699a0adc16f448d7/src/Servers/Kestrel/Core/src/Internal/Http/HttpRequestStream.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -31,26 +49,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.NitroHub.Net: https.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.NitroHub.Net: IIS Express.executor": "Debug",
+    ".NET Launch Settings Profile.NitroHub.Net: https.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\katana\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\katana\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\katana\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\katana\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\katana\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\katana\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.NitroHub.Net: https">
     <configuration name="NitroHub.Net: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/NitroHub.Net/NitroHub.Net.csproj" />
@@ -151,7 +171,10 @@
       <option name="presentableId" value="Default" />
       <updated>1715422782889</updated>
       <workItem from="1715422782892" duration="3133000" />
-      <workItem from="1715426034087" duration="1091000" />
+      <workItem from="1715426034087" duration="2013000" />
+      <workItem from="1715451255683" duration="946000" />
+      <workItem from="1715452725909" duration="5826000" />
+      <workItem from="1715792708231" duration="3972000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <option name="closed" value="true" />
@@ -161,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715425715137</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="не успеваю сделать">
+      <option name="closed" value="true" />
+      <created>1715428049033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715428049034</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +203,67 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="second" />
-    <option name="LAST_COMMIT_MESSAGE" value="second" />
+    <MESSAGE value="не успеваю сделать" />
+    <option name="LAST_COMMIT_MESSAGE" value="не успеваю сделать" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/NitroHub.Net/Views/Shared/_Layout.cshtml</url>
+          <line>504</line>
+          <properties documentPath="C:\Projects\dotnet\NitroHub.Net\NitroHub.Net\Views\Shared\_Layout.cshtml" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/NitroHub.Net/Controllers/PaymentsController.cs</url>
+          <line>53</line>
+          <properties documentPath="C:\Projects\dotnet\NitroHub.Net\NitroHub.Net\Controllers\PaymentsController.cs" containingFunctionPresentation="Method 'ProcessPayment'">
+            <startOffsets>
+              <option value="1898" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1919" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/NitroHub.Net/Controllers/PaymentsController.cs</url>
+          <line>49</line>
+          <properties documentPath="C:\Projects\dotnet\NitroHub.Net\NitroHub.Net\Controllers\PaymentsController.cs" containingFunctionPresentation="Method 'ProcessPayment'">
+            <startOffsets>
+              <option value="1821" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1855" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/NitroHub.Net/Views/Shared/_Layout.cshtml</url>
+          <line>120</line>
+          <properties documentPath="C:\Projects\dotnet\NitroHub.Net\NitroHub.Net\Views\Shared\_Layout.cshtml" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

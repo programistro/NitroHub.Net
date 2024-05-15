@@ -113,6 +113,8 @@
 </head>
 <body>
 
+
+
 <style>
     body {
         background-color: #190a25;
@@ -210,9 +212,11 @@
                 </form>
 
                 <div class="auth-buttons">
-                    <button onclick="window.location='/login/google';" class="btn auth-button">
-                        <img loading="lazy" src="static/img/google.png" alt="Google">
-                    </button>
+                    <a asp-action="Google" asp-controller="Auth">
+                        <button class="btn auth-button">
+                            <img loading="lazy" src="static/img/google.png" alt="Google">
+                        </button>
+                    </a>
 
                     <button onclick="cooldown()" class="btn auth-button telegramLogin">
                         <img loading="lazy" src="static/img/tg.png" alt="Telegram">
@@ -482,7 +486,7 @@
 
 
 
-                                                        <button name="button" data-modal="auth" type="button" class="btn animate purchase">🥶 Приобрести</button>
+                                                        <a style="cursor: pointer;" asp-controller="Payment" asp-action="ProcessPayment" type="button" class="btn animate purchase">🥶 Приобрести</a>
 
 
 

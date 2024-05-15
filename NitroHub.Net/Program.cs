@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using NitroHub.Net.Data;
 using NitroHub.Net.Service;
 using System;
+using Microsoft.AspNetCore.Authentication.Google;
+using Microsoft.AspNetCore.Server.Kestrel.Core;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,9 +21,42 @@ builder.Services.AddScoped<AccountService>();
 //    options.UseNpgsql(connectionString));
 
 
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-    .AddCookie(options => options.LoginPath = "/");
-builder.Services.AddAuthorization();
+// builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+//     .AddCookie(options => options.LoginPath = "/");
+// builder.Services.AddAuthorization();
+
+builder.Services.AddAuthentication(options =>
+    {
+        options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+        options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
+    }).AddCookie(opt =>
+    {
+        opt.Cookie.Name = "TryingoutGoogleOAuth";
+        opt.LoginPath = "/Auth/google-singin";
+    })
+    .AddGoogle(GoogleDefaults.AuthenticationScheme, options =>
+    {
+        options.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
+        options.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value;
+    });
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
+}).AddCookie("LoginScheme", options =>
+{
+    // ��������� ��� ����� ����� ��������������
+    options.Cookie.Name = "LoginScheme";
+    options.LoginPath = "/auth/singin";
+    // ...
+});
+
+builder.Services.Configure<KestrelServerOptions>(options =>
+{
+    options.AllowSynchronousIO = true;
+});
+
 
 var app = builder.Build();
 
