@@ -1,0 +1,203 @@
+﻿.donate .items > .item-list > .item-id {
+    background: #2d253f;
+}
+
+.donate .tabs > .tab-links > li .tab-link:hover,
+.donate .tabs > .tab-links > li .tab-link.active {
+    color: #fff;
+}
+
+.donate .items > .item-list > .item-id > .title, .donate .items > .item-list > .item-id > .price {
+    color: #e1c5e8;
+}
+
+.donate .items > .item-list > .item-id > .price {
+    color: #e1c5e8;
+}
+
+.button-price:hover {
+    background-color: #825fa5;
+    transition: all 0.3s ease-out;
+}
+
+body > .navbar .navbar-wrapper .nav-link:after {
+    bottom: -10px;
+    left: 0;
+    height: 3px;
+    background-color: #956fa6;
+    border-radius: 1.5px;
+}
+
+.modal > .wrapper > .modal-content {
+    background: #2b2235;
+}
+
+.modal[data-id="donate"] > .wrapper > .modal-content .description {
+    color: #e1c5e8;
+}
+
+.modal > .wrapper > .modal-content > .modal-header {
+    color: #e1c5e8;
+}
+
+.modal[data-id="donate"] > .wrapper > .modal-content #input-amount input {
+    background: #272130;
+}
+
+.shadow {
+    background-color: #67467d;
+    color: #e1c5e8;
+}
+
+.donate .items > .item-list > .animate:hover {
+    background-color: #5c4b6f;
+}
+
+.static-page .pagename {
+    color: #e1c5e8;
+}
+
+.minimal {
+    color: #e1c5e8;
+}
+
+.plus {
+    color: #e1c5e8;
+}
+
+.minus {
+    color: #e1c5e8;
+}
+
+input {
+    color: #e1c5e8;
+    background-color: #1e1324;
+}
+
+.static-page .section ul > li {
+    color: #e1c5e8;
+}
+
+.pt-20 {
+    color: #e1c5e8;
+}
+
+.modal > .wrapper > .modal-content > .modal-body {
+    color: #e1c5e8;
+}
+
+.method {
+    background: #583967;
+}
+
+.btn {
+    background: #574069;
+}
+
+.method-text {
+    color: #e1c5e8;
+}
+
+.donate .items > .item-list > .animate:hover > .title {
+    color: #e1c5e8;
+}
+
+.btn {
+    color: white;
+}
+
+.text-center {
+    background-color: #221633;
+    color: #e1c5e8;
+}
+
+.modal[data-id="donate"] > .wrapper > .modal-content input, .modal[data-id="auth"] > .wrapper > .modal-content input, .modal[data-id="2fauth"] > .wrapper > .modal-content input, .modal[data-id="donate"] > .wrapper > .modal-content textarea, .modal[data-id="auth"] > .wrapper > .modal-content textarea, .modal[data-id="2fauth"] > .wrapper > .modal-content textarea {
+    background: #1e1324;
+}
+
+.nav-center > .navbar-menu > .nav-li > .nav-link {
+    color: #e1c5e8;
+    border-radius: 7px;
+}
+
+.show-more a {
+    color: #e1c5e8;
+}
+
+.auth-email-checkmark {
+    background-color: #1f1324;
+    color: #e1c5e8;
+}
+
+.auth-button {
+    background-color: #1f1324;
+}
+
+.show-more:hover a {
+    color: #e1c5e8;
+}
+
+.minimal-text {
+    color: #736187;
+    font-size: 13px;
+}
+
+.small-text {
+    color: #c282c9;
+    font-size: 10px;
+}
+
+@media (max-width: 1000px) {
+    .small-text {
+        font-size: 8px;
+    }
+}
+
+.navbar.open .navbar-wrapper > .nav-right, .navbar.open .navbar-wrapper > .nav-center {
+    background-color: #1b264d;
+}
+
+body > footer {
+    background-color: #0c0112;
+}
+
+.navbar .navbar-wrapper .nav-link.active, .navbar .navbar-wrapper .nav-link:active, .navbar .navbar-wrapper .nav-link:hover, .navbar .navbar-wrapper .nav-mobile:active, .navbar .navbar-wrapper .nav-mobile:hover, .navbar.open .navbar-wrapper .nav-mobile {
+    background: #805aa5;
+}
+
+.btn:hover {
+    background-color: #825fa5;
+}
+
+.navbar.open .navbar-wrapper > .nav-right, .navbar.open .navbar-wrapper > .nav-center {
+    background-color: #411b4d;
+}
+
+.navbar .navbar-wrapper .nav-mobile:active, .navbar .navbar-wrapper .nav-mobile:hover {
+    background: #9988b3;
+}
+
+.navbar .navbar-wrapper .nav-mobile:hover {
+    background: #9988b3;
+}
+
+.navbar .navbar-wrapper .nav-mobile {
+    background: #9988b3;
+}
+
+    .navbar .navbar-wrapper .nav-mobile:hover {
+        background-color: #9988b3;
+    }
+
+.static-page .section ul > li:before {
+    background-color: #bd92f5;
+}
+
+body {
+    background-color: #190a25;
+    color: #424242;
+}
+
+body {
+    background-image: url(static/img/header.png);
+}
